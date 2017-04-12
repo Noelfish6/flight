@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<script src="lib/d3.v4.min.js"></script>
+		<link href='global.css' rel='stylesheet'/>
+	</head>
+	<body>
+		<div class='container'>
+			<h1>Fly on an airplane</h1>
+			<pre id="csv">subCategory,TPC
+			Boston MA,Boston MA
+			New York,New York
+			Orlando FL,Orlando FL</pre>
+			<div class="container">
+				<h2>The flight connection among US cities</h2>
+				<div class='plot' id='plot1'></div>
+				<h2>Delay or ahead?</h2>
+				<div class='plot' id='plot2'></div>
+				<h2>Delay caused by weather</h2>
+				<div class='plot' id='plot3'></div>				
+			</div>
+			
+
+		</div>
+		<script src="lib/crossfilter.min.js"></script>
+		<script src="modules/Map.js"></script>
+		<script src="modules/radial.js"></script>
+		<script src="modules/BarChart.js"></script>
+		<script src="modules/map_lines.js"></script>
+        <script src="app.js"></script>
+	</body>
+</html>
