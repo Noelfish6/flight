@@ -20,7 +20,7 @@ var plot1 = svg.filter(function(d,i){ return i===0;}),
 var cf, originDimension, destinationDimension, totalDimension;
 var cfDelay, originDelayDimension;
 
-var selectedCity;
+var selectedCity = "Boston MA";
 
 // dropdown list
 var body = d3.select("body");
@@ -34,7 +34,7 @@ menu.selectAll("foo")
     .text(d=>d.subCategory);
 
 menu.on("change", function(){
-    return {selectedCity: this.value};
+    console.log(this.value);
 });
 
 //var selectedCity = function(d){return this.value};
@@ -100,7 +100,7 @@ function createVisualization() {
 	originDimension.filter(null);
 	destinationDimension.filter(null);
 	d3.select('#plot1').datum(originDimension.top(Infinity)).call(map);
-
+	console.log(selectedCity)
 	originDimension.filter(selectedCity);
 
 	var flightsDimension = totalDimension.top(5);
@@ -109,12 +109,14 @@ function createVisualization() {
 
 
 	var radial = Radial();
-
+	console.log(flightsDimension.length)
+	
 	flightsDimension.forEach(function(d, i) { //filter from different data frames can be used together?
-		console.log(d); // data is not correct(it shows top 5 cities), delay data is needed here
-		originDelayDimension.filter(selectedCity); //d.location_origin
-		var delayFilter = originDelayDimension.top(Infinity);
-
+		console.log(d.location_dest); // data is not correct(it shows top 5 cities), delay data is needed here
+		destDelayDimension.filter(d.location_dest); //d.location_origin
+		// console.log(originDelayDimension)
+		var delayFilter = destDelayDimension.top(Infinity);
+		console.log(delayFilter)
 		radial.isDeparture(true);
 		plot2.append("g")
 			.classed("radial-delay", true)
@@ -130,7 +132,7 @@ function createVisualization() {
 
 
 	var barChart = BarChart();
-	plot3.append("g").classed("weatherBarChart", true).datum(weatherDelayDimenstion).call(barChart);
+	plot3.append("g").classed("weatherBarChart", true).datum(weatherDelayDimenstion.top(Infinity)).call(barChart);
 }
 
 
