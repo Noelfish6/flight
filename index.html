@@ -5,9 +5,166 @@
 		<script src="lib/d3.v4.min.js"></script>
 		<link href='global.css' rel='stylesheet'/>
 	</head>
+	<style type="text/css">
+
+	</style>
 	<body>
 		<div class='container'>
 			<h1>Fly on an airplane</h1>
+
+			<table class="tg" style="undefined;table-layout: fixed; width: 1224px">
+			<colgroup>
+			<col style="width: 39px">
+			<col style="width: 81px">
+			<col style="width: 81px">
+			<col style="width: 103px">
+			<col style="width: 131px">
+			<col style="width: 137px">
+			<col style="width: 104px">
+			<col style="width: 220px">
+			<col style="width: 223px">
+			<col style="width: 105px">
+			</colgroup>
+			  <tr>
+			    <th class="tg-yzt1"></th>
+			    <th class="tg-7t59" colspan="3">State</th>
+			    <th class="tg-7t59" colspan="3">City</th>
+			    <th class="tg-7t59" colspan="3">Airport</th>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">rank</td>
+			    <td class="tg-b7b8">from</td>
+			    <td class="tg-b7b8">to</td>
+			    <td class="tg-b7b8">connection index</td>
+			    <td class="tg-b7b8">from</td>
+			    <td class="tg-b7b8">to</td>
+			    <td class="tg-b7b8">connection index</td>
+			    <td class="tg-b7b8">from</td>
+			    <td class="tg-b7b8">to</td>
+			    <td class="tg-b7b8">connection index</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-yw4l">1</td>
+			    <td class="tg-yw4l">California</td>
+			    <td class="tg-yw4l">California</td>
+			    <td class="tg-yw4l">330149</td>
+			    <td class="tg-yw4l">Boston, MA</td>
+			    <td class="tg-yw4l">New York, NY</td>
+			    <td class="tg-yw4l">19548</td>
+			    <td class="tg-yw4l">Los Angeles International, CA</td>
+			    <td class="tg-yw4l">San Francisco International, CA</td>
+			    <td class="tg-yw4l">13788</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">2</td>
+			    <td class="tg-b7b8">Texas</td>
+			    <td class="tg-b7b8">Texas</td>
+			    <td class="tg-b7b8">234902</td>
+			    <td class="tg-b7b8">New York, NY</td>
+			    <td class="tg-b7b8">Boston, MA</td>
+			    <td class="tg-b7b8">19401</td>
+			    <td class="tg-b7b8">San Francisco International, CA</td>
+			    <td class="tg-b7b8">Los Angeles International, CA</td>
+			    <td class="tg-b7b8">13390</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-yw4l">3</td>
+			    <td class="tg-yw4l">Hawaii</td>
+			    <td class="tg-yw4l">Hawaii</td>
+			    <td class="tg-yw4l">82225</td>
+			    <td class="tg-yw4l">Chicago, IL</td>
+			    <td class="tg-yw4l">New York, NY</td>
+			    <td class="tg-yw4l">14534</td>
+			    <td class="tg-yw4l">Honolulu International, HI</td>
+			    <td class="tg-yw4l">Kahului, HI</td>
+			    <td class="tg-yw4l">12383</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">4</td>
+			    <td class="tg-b7b8">Arizona</td>
+			    <td class="tg-b7b8">California</td>
+			    <td class="tg-b7b8">68990</td>
+			    <td class="tg-b7b8">New York, NY</td>
+			    <td class="tg-b7b8">Chicago, IL</td>
+			    <td class="tg-b7b8">14454</td>
+			    <td class="tg-b7b8">Gen Edw L Logan Intl, MA</td>
+			    <td class="tg-b7b8">LaGuardia, NY</td>
+			    <td class="tg-b7b8">12035</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-yw4l">5</td>
+			    <td class="tg-yw4l">California</td>
+			    <td class="tg-yw4l">Arizona</td>
+			    <td class="tg-yw4l">68811</td>
+			    <td class="tg-yw4l">New York, NY</td>
+			    <td class="tg-yw4l">Arlington, VA</td>
+			    <td class="tg-yw4l">14119</td>
+			    <td class="tg-yw4l">LaGuardia, NY</td>
+			    <td class="tg-yw4l">Gen Edw L Logan Intl, MA</td>
+			    <td class="tg-yw4l">12029</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">6</td>
+			    <td class="tg-b7b8">Georgia</td>
+			    <td class="tg-b7b8">Florida</td>
+			    <td class="tg-b7b8">68616</td>
+			    <td class="tg-b7b8">Arlington, VA</td>
+			    <td class="tg-b7b8">New York, NY</td>
+			    <td class="tg-b7b8">14004</td>
+			    <td class="tg-b7b8">Kahului, HI</td>
+			    <td class="tg-b7b8">Honolulu International, HI</td>
+			    <td class="tg-b7b8">12014</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-yw4l">7</td>
+			    <td class="tg-yw4l">Florida</td>
+			    <td class="tg-yw4l">Georgia</td>
+			    <td class="tg-yw4l">68611</td>
+			    <td class="tg-yw4l">Los Angeles, CA</td>
+			    <td class="tg-yw4l">San Francisco, CA</td>
+			    <td class="tg-yw4l">13788</td>
+			    <td class="tg-yw4l">McCarran International, NV</td>
+			    <td class="tg-yw4l">Los Angeles International, CA</td>
+			    <td class="tg-yw4l">11773</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">8</td>
+			    <td class="tg-b7b8">California</td>
+			    <td class="tg-b7b8">Nevada</td>
+			    <td class="tg-b7b8">63133</td>
+			    <td class="tg-b7b8">Houston, TX</td>
+			    <td class="tg-b7b8">Dallas, TX</td>
+			    <td class="tg-b7b8">13520</td>
+			    <td class="tg-b7b8">Los Angeles International, CA</td>
+			    <td class="tg-b7b8">McCarran International, NV</td>
+			    <td class="tg-b7b8">11729</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-yw4l">9</td>
+			    <td class="tg-yw4l">Nevada</td>
+			    <td class="tg-yw4l">California</td>
+			    <td class="tg-yw4l">63072</td>
+			    <td class="tg-yw4l">Dallas, TX</td>
+			    <td class="tg-yw4l">Houston, TX</td>
+			    <td class="tg-yw4l">13496</td>
+			    <td class="tg-yw4l">San Diego International-Lindbergh, CA</td>
+			    <td class="tg-yw4l">Los Angeles International, CA</td>
+			    <td class="tg-yw4l">11257</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-b7b8">10</td>
+			    <td class="tg-b7b8">Florida</td>
+			    <td class="tg-b7b8">New York</td>
+			    <td class="tg-b7b8">56120</td>
+			    <td class="tg-b7b8">San Francisco, CA</td>
+			    <td class="tg-b7b8">Los Angeles, CA</td>
+			    <td class="tg-b7b8">13390</td>
+			    <td class="tg-b7b8">Los Angeles International, CA</td>
+			    <td class="tg-b7b8">San Diego International-Lindbergh, CA</td>
+			    <td class="tg-b7b8">11224</td>
+			  </tr>
+			</table>
+			
 			<pre id="csv">subCategory,TPC
 			Boston MA,Boston MA
 			New York,New York
