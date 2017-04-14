@@ -5,6 +5,7 @@
 		<script src="lib/d3.v4.min.js"></script>
 		<link href='global.css' rel='stylesheet'/>
 	</head>
+
 	<style type="text/css">
 
 	</style>
@@ -164,12 +165,17 @@
 			    <td class="tg-b7b8">11224</td>
 			  </tr>
 			</table>
-			
+			<p class="intorduction"></p>
+			<div class="container">
 			<pre id="csv">subCategory,TPC
 			Boston MA,Boston MA
-			New York,New York
-			Orlando FL,Orlando FL</pre>
-			<div class="container">
+			New York NY,New York NY
+			Chicago IL, Chicago, IL
+			Arlington VA, Arlington VA
+			Los Angeles CA, Los Angeles CA
+			Houston TX, Houston TX
+			Dallas TX, Dallas TX
+			San Francisco CA, San Francisco CA</pre>
 				<h2>The flight connection among US cities</h2>
 				<div class='plot' id='plot1'></div>
 				<h2>Delay or ahead?</h2>
@@ -181,10 +187,12 @@
 
 		</div>
 		<script src="lib/crossfilter.min.js"></script>
+		<script src="lib/jquery/jquery-1.12.4.min.js"></script>		
 		<script src="modules/Map.js"></script>
 		<script src="modules/radial.js"></script>
 		<script src="modules/BarChart.js"></script>
 		<script src="modules/map_lines.js"></script>
         <script src="app.js"></script>
+
 	</body>
 </html>

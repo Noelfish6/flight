@@ -17,13 +17,13 @@ var plot1 = svg.filter(function(d,i){ return i===0;}),
 	plot3 = svg.filter(function(d,i){return i===2}).classed('time-series',true);
 
 
-var cf, originDimension, destinationDimension, totalDimension;
+var cf, originDimension, destinationDimension, totalDimension, stationMap = d3.map();
 var cfDelay, originDelayDimension;
 
-var selectedCity = "Boston MA";
+var selectedCity = "Chicago IL";
 
 // dropdown list
-var body = d3.select("body");
+var body = d3.select(".intorduction");
 var list = d3.csvParse(d3.select("#csv").text());
 var menu = body.append("select");
 menu.selectAll("foo")
@@ -34,11 +34,9 @@ menu.selectAll("foo")
     .text(d=>d.subCategory);
 
 menu.on("change", function(){
-    console.log(this.value);
+    selectedCity = this.value;
+    createVisualization();
 });
-
-//var selectedCity = function(d){return this.value};
-
 
 svg.append('rect')
 	.attr('x',0)
@@ -55,7 +53,7 @@ d3.queue()
 	.await(dataLoaded);
 
 function dataLoaded(err,city,delay){
-
+	console.log(err, city);
 	cf = crossfilter(city);
 	originDimension = cf.dimension(function(d){ return d.location_origin; });
 	destinationDimension = cf.dimension(function(d){ return d.location_dest; });
@@ -67,6 +65,17 @@ function dataLoaded(err,city,delay){
 	
 	weatherDelayDimenstion = cfDelay.dimension(function(d){ return d.weatherDelay;});
 
+
+	//Listen for changes in the dropdown menus
+	d3.select('#start-station')
+		.selectAll('.station')
+		.on('click',function(){ 
+			console.log("clicked");
+			selectedCity = $(this).data('id'); //note how the 'data-id' attribute is retrieved
+			originDimension.filter(location_origin.toString());
+			update( originDimension.top(Infinity) );
+		});
+
 	createVisualization();
 }
 
@@ -74,7 +83,7 @@ function createVisualization() {
 	var projection = d3.geoMercator()
 			.center([-95.5795,45.8282])
 			.translate([w/2, h/2])
-			.scale(700);
+			.scale(900);
 
 	var map = Map().height(600).projection(projection);
 
@@ -100,30 +109,28 @@ function createVisualization() {
 	originDimension.filter(null);
 	destinationDimension.filter(null);
 	d3.select('#plot1').datum(originDimension.top(Infinity)).call(map);
-	console.log(selectedCity)
 	originDimension.filter(selectedCity);
 
 	var flightsDimension = totalDimension.top(5);
 	var mapLines = MapLines().projection(projection);
+	plot1.selectAll("g").remove();
 	plot1.append("g").classed("flightLines", true).datum(flightsDimension).call(mapLines);
 
 
 	var radial = Radial();
-	console.log(flightsDimension.length)
-	
-	flightsDimension.forEach(function(d, i) { //filter from different data frames can be used together?
-		console.log(d.location_dest); // data is not correct(it shows top 5 cities), delay data is needed here
+	//console.log(flightsDimension.length);
+	plot2.selectAll("g").remove();
+	flightsDimension.forEach(function(d, i) {
 		destDelayDimension.filter(d.location_dest); //d.location_origin
-		// console.log(originDelayDimension)
 		var delayFilter = destDelayDimension.top(Infinity);
-		console.log(delayFilter)
 		radial.isDeparture(true);
 		plot2.append("g")
 			.classed("radial-delay", true)
 			.attr("transform", "translate("+(50+i*w/5)+", 150)")
 			.datum(delayFilter).call(radial);
 
-		radial.isDeparture(true);
+		radial.isDeparture(false);
+		// plot2.selectAll("g").remove();
 		plot2.append("g")
 			.classed("radial-arrival", true)
 			.attr("transform", "translate("+(50+i*w/5)+", 150)")
@@ -131,13 +138,33 @@ function createVisualization() {
 	});
 
 
+	destDelayDimension.filter(null);
 	var barChart = BarChart();
-	plot3.append("g").classed("weatherBarChart", true).datum(weatherDelayDimenstion.top(Infinity)).call(barChart);
+
+	flightsDimension.forEach(function(d,i){
+		destDelayDimension.filter(d.location_dest); 
+		var weatherFilter = weatherDelayDimenstion.top(Infinity);
+		console.log("is it undefined", weatherFilter);
+		plot3.selectAll("g").remove();
+		plot3.append("g")
+			.classed("weatherBarChart", true)
+			.attr("transform", "translate(50, "+(50+i*h/5)+")")
+			.datum(weatherFilter)
+			.call(barChart);
+
+		console.log(weatherFilter);
+
+	});
+
+}
+
+function update(arr){
+	console.log(stationMap.get(selectedCity));
 }
 
 
-
 function parseCity(d){
+	stationMap.set(d.location_dest);
 	return {
 		location_dest:d.location_dest,
 		location_origin:d.location_origin,
