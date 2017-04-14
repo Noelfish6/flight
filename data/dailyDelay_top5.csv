@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "","location_origin","location_dest","Month","DayofMonth","DepDelay","Cancelled","WeatherDelay"
 "17343","Arlington VA","Atlanta GA",6,23,262,2,0
 "17344","Arlington VA","Atlanta GA",8,15,97,1,0
@@ -14639,3 +14640,1836 @@
 "294783","San Francisco CA","San Diego CA",12,28,382,1,0
 "294784","San Francisco CA","San Diego CA",9,4,-9,0,0
 "294785","San Francisco CA","San Diego CA",3,18,-19,0,0
+=======
+,location_origin,location_dest,Month,DayofMonth,DepDelay,Cancelled,WeatherDelay
+41486,Boston MA,Arlington VA,5,13,-108,0,0
+41487,Boston MA,Arlington VA,4,24,-95,1,0
+41488,Boston MA,Arlington VA,10,22,-55,0,0
+41489,Boston MA,Arlington VA,9,7,-92,0,0
+41490,Boston MA,Arlington VA,5,29,-100,1,0
+41491,Boston MA,Arlington VA,12,30,-30,0,0
+41492,Boston MA,Arlington VA,3,14,57,1,0
+41493,Boston MA,Arlington VA,11,8,-29,0,0
+41494,Boston MA,Arlington VA,8,3,247,0,65
+41495,Boston MA,Arlington VA,12,20,855,1,107
+41496,Boston MA,Arlington VA,10,29,-21,1,0
+41497,Boston MA,Arlington VA,2,20,-78,0,0
+41498,Boston MA,Arlington VA,8,26,45,1,40
+41499,Boston MA,Arlington VA,4,17,106,1,0
+41500,Boston MA,Arlington VA,4,18,-10,0,0
+41501,Boston MA,Arlington VA,11,4,-123,3,0
+41502,Boston MA,Arlington VA,2,3,-54,0,0
+41503,Boston MA,Arlington VA,1,4,53,0,0
+41504,Boston MA,Arlington VA,12,17,308,1,65
+41505,Boston MA,Arlington VA,10,10,-43,0,24
+41506,Boston MA,Arlington VA,9,28,61,0,0
+41507,Boston MA,Arlington VA,6,4,1501,3,695
+41508,Boston MA,Arlington VA,1,10,-83,1,0
+41509,Boston MA,Arlington VA,11,25,93,1,41
+41510,Boston MA,Arlington VA,10,7,-97,0,0
+41511,Boston MA,Arlington VA,5,17,-37,0,0
+41512,Boston MA,Arlington VA,1,16,-39,1,0
+41513,Boston MA,Arlington VA,3,26,-87,0,0
+41514,Boston MA,Arlington VA,6,28,156,0,0
+41515,Boston MA,Arlington VA,6,18,65,0,85
+41516,Boston MA,Arlington VA,7,22,-11,2,0
+41517,Boston MA,Arlington VA,12,14,12,1,0
+41518,Boston MA,Arlington VA,5,31,709,0,0
+41519,Boston MA,Arlington VA,4,12,116,0,10
+41520,Boston MA,Arlington VA,6,23,386,1,100
+41521,Boston MA,Arlington VA,2,25,240,2,0
+41522,Boston MA,Arlington VA,9,14,288,1,121
+41523,Boston MA,Arlington VA,7,5,-14,0,0
+41524,Boston MA,Arlington VA,7,6,274,0,107
+41525,Boston MA,Arlington VA,4,11,113,1,53
+41526,Boston MA,Arlington VA,2,18,242,1,0
+41527,Boston MA,Arlington VA,10,15,-59,1,0
+41528,Boston MA,Arlington VA,12,15,186,0,0
+41529,Boston MA,Arlington VA,3,27,91,1,75
+41530,Boston MA,Arlington VA,4,21,-40,1,0
+41531,Boston MA,Arlington VA,7,20,290,2,0
+41532,Boston MA,Arlington VA,5,26,95,0,0
+41533,Boston MA,Arlington VA,11,9,83,0,0
+41534,Boston MA,Arlington VA,1,27,175,2,15
+41535,Boston MA,Arlington VA,9,11,-124,0,21
+41536,Boston MA,Arlington VA,12,18,-88,0,0
+41537,Boston MA,Arlington VA,12,24,392,0,0
+41538,Boston MA,Arlington VA,11,17,-139,0,0
+41539,Boston MA,Arlington VA,9,26,169,1,5
+41540,Boston MA,Arlington VA,5,27,458,3,349
+41541,Boston MA,Arlington VA,5,16,-72,0,0
+41542,Boston MA,Arlington VA,3,25,54,0,0
+41543,Boston MA,Arlington VA,8,15,301,3,0
+41544,Boston MA,Arlington VA,2,26,-137,0,0
+41545,Boston MA,Arlington VA,6,26,178,1,26
+41546,Boston MA,Arlington VA,4,10,-29,0,0
+41547,Boston MA,Arlington VA,11,29,-18,0,0
+41548,Boston MA,Arlington VA,11,24,-175,0,0
+41549,Boston MA,Arlington VA,12,11,69,0,5
+41550,Boston MA,Arlington VA,6,14,187,0,0
+41551,Boston MA,Arlington VA,7,25,-32,2,0
+41552,Boston MA,Arlington VA,2,8,192,0,81
+41553,Boston MA,Arlington VA,10,17,-134,0,0
+41554,Boston MA,Arlington VA,2,7,-22,1,0
+41555,Boston MA,Arlington VA,1,8,-99,0,0
+41556,Boston MA,Arlington VA,12,8,-50,0,0
+41557,Boston MA,Arlington VA,1,28,9,1,0
+41558,Boston MA,Arlington VA,3,5,202,1,246
+41559,Boston MA,Arlington VA,5,12,7,0,0
+41560,Boston MA,Arlington VA,2,1,156,3,14
+41561,Boston MA,Arlington VA,3,10,241,1,0
+41562,Boston MA,Arlington VA,10,30,-75,0,0
+41563,Boston MA,Arlington VA,11,7,282,0,199
+41564,Boston MA,Arlington VA,10,4,-56,0,0
+41565,Boston MA,Arlington VA,12,26,-27,0,0
+41566,Boston MA,Arlington VA,10,8,5,0,0
+41567,Boston MA,Arlington VA,6,29,211,1,0
+41568,Boston MA,Arlington VA,5,19,-80,0,0
+41569,Boston MA,Arlington VA,7,2,588,1,104
+41570,Boston MA,Arlington VA,8,7,561,2,237
+41571,Boston MA,Arlington VA,8,28,33,2,0
+41572,Boston MA,Arlington VA,8,27,-101,0,0
+41573,Boston MA,Arlington VA,11,3,-88,0,0
+41574,Boston MA,Arlington VA,6,1,36,0,0
+41575,Boston MA,Arlington VA,12,23,434,1,40
+41576,Boston MA,Arlington VA,1,20,15,2,0
+41577,Boston MA,Arlington VA,3,1,131,0,0
+41578,Boston MA,Arlington VA,8,6,222,3,0
+41579,Boston MA,Arlington VA,3,31,260,0,148
+41580,Boston MA,Arlington VA,5,10,-22,0,0
+41581,Boston MA,Arlington VA,2,22,88,13,44
+41582,Boston MA,Arlington VA,6,12,39,0,43
+41583,Boston MA,Arlington VA,3,15,127,0,33
+41584,Boston MA,Arlington VA,2,9,-51,1,0
+41585,Boston MA,Arlington VA,12,1,158,0,50
+41586,Boston MA,Arlington VA,1,29,-171,0,0
+41587,Boston MA,Arlington VA,4,26,-46,0,0
+41588,Boston MA,Arlington VA,6,3,14,0,74
+41589,Boston MA,Arlington VA,1,31,-124,0,0
+41590,Boston MA,Arlington VA,3,16,394,0,0
+41591,Boston MA,Arlington VA,12,25,168,0,0
+41592,Boston MA,Arlington VA,4,28,570,1,169
+41593,Boston MA,Arlington VA,4,3,-77,0,0
+41594,Boston MA,Arlington VA,11,13,208,0,74
+41595,Boston MA,Arlington VA,10,2,-68,0,0
+41596,Boston MA,Arlington VA,2,19,-122,0,0
+41597,Boston MA,Arlington VA,11,1,-53,0,0
+41598,Boston MA,Arlington VA,4,13,56,0,15
+41599,Boston MA,Arlington VA,2,17,-41,1,0
+41600,Boston MA,Arlington VA,7,28,257,1,0
+41601,Boston MA,Arlington VA,10,6,-136,0,0
+41602,Boston MA,Arlington VA,8,23,-32,0,0
+41603,Boston MA,Arlington VA,9,1,-11,0,0
+41604,Boston MA,Arlington VA,9,19,-102,0,0
+41605,Boston MA,Arlington VA,3,29,57,0,0
+41606,Boston MA,Arlington VA,10,27,-163,0,0
+41607,Boston MA,Arlington VA,5,1,-64,0,0
+41608,Boston MA,Arlington VA,12,9,-30,0,0
+41609,Boston MA,Arlington VA,5,25,-81,0,0
+41610,Boston MA,Arlington VA,9,23,-118,0,0
+41611,Boston MA,Arlington VA,12,2,-74,0,0
+41612,Boston MA,Arlington VA,7,13,677,4,376
+41613,Boston MA,Arlington VA,3,4,14,4,60
+41614,Boston MA,Arlington VA,10,5,-14,0,10
+41615,Boston MA,Arlington VA,3,17,105,0,30
+41616,Boston MA,Arlington VA,4,14,-62,0,20
+41617,Boston MA,Arlington VA,1,9,-140,1,0
+41618,Boston MA,Arlington VA,2,23,375,1,31
+41619,Boston MA,Arlington VA,3,6,-63,3,0
+41620,Boston MA,Arlington VA,3,7,469,0,165
+41621,Boston MA,Arlington VA,5,30,-49,0,0
+41622,Boston MA,Arlington VA,4,15,-57,0,0
+41623,Boston MA,Arlington VA,12,3,-136,0,0
+41624,Boston MA,Arlington VA,10,31,-99,0,0
+41625,Boston MA,Arlington VA,12,28,-4,0,0
+41626,Boston MA,Arlington VA,4,30,11,0,0
+41627,Boston MA,Arlington VA,2,6,125,0,0
+41628,Boston MA,Arlington VA,8,11,1188,4,544
+41629,Boston MA,Arlington VA,3,19,131,1,35
+41630,Boston MA,Arlington VA,12,7,-52,0,0
+41631,Boston MA,Arlington VA,7,3,7,0,0
+41632,Boston MA,Arlington VA,1,30,52,2,57
+41633,Boston MA,Arlington VA,11,28,-48,0,0
+41634,Boston MA,Arlington VA,8,5,-87,0,0
+41635,Boston MA,Arlington VA,2,24,-22,0,0
+41636,Boston MA,Arlington VA,7,14,183,1,0
+41637,Boston MA,Arlington VA,8,16,143,0,0
+41638,Boston MA,Arlington VA,6,22,142,1,0
+41639,Boston MA,Arlington VA,12,16,-75,0,10
+41640,Boston MA,Arlington VA,6,10,249,2,112
+41641,Boston MA,Arlington VA,6,21,87,0,0
+41642,Boston MA,Arlington VA,4,23,23,0,15
+41643,Boston MA,Arlington VA,1,2,592,3,0
+41644,Boston MA,Arlington VA,8,31,-27,0,0
+41645,Boston MA,Arlington VA,4,7,161,1,97
+41646,Boston MA,Arlington VA,9,24,54,0,19
+41647,Boston MA,Arlington VA,1,22,49,1,91
+41648,Boston MA,Arlington VA,8,13,-83,1,0
+41649,Boston MA,Arlington VA,11,6,155,1,5
+41650,Boston MA,Arlington VA,7,11,64,2,0
+41651,Boston MA,Arlington VA,10,19,206,0,0
+41652,Boston MA,Arlington VA,8,2,270,1,0
+41653,Boston MA,Arlington VA,8,17,-4,0,0
+41654,Boston MA,Arlington VA,6,5,609,1,265
+41655,Boston MA,Arlington VA,5,14,-61,0,0
+41656,Boston MA,Arlington VA,6,13,-63,0,0
+41657,Boston MA,Arlington VA,10,23,-53,0,0
+41658,Boston MA,Arlington VA,1,3,39,1,0
+41659,Boston MA,Arlington VA,11,12,-30,0,0
+41660,Boston MA,Arlington VA,10,16,-99,0,0
+41661,Boston MA,Arlington VA,6,2,-80,0,0
+41662,Boston MA,Arlington VA,5,3,295,1,0
+41663,Boston MA,Arlington VA,6,20,111,1,10
+41664,Boston MA,Arlington VA,12,12,246,1,205
+41665,Boston MA,Arlington VA,3,24,-67,2,23
+41666,Boston MA,Arlington VA,8,25,-16,0,21
+41667,Boston MA,Arlington VA,5,11,46,1,0
+41668,Boston MA,Arlington VA,6,27,748,2,180
+41669,Boston MA,Arlington VA,2,2,4,1,0
+41670,Boston MA,Arlington VA,4,8,-106,0,0
+41671,Boston MA,Arlington VA,7,29,-34,1,0
+41672,Boston MA,Arlington VA,4,27,28,0,0
+41673,Boston MA,Arlington VA,10,13,-71,0,0
+41674,Boston MA,Arlington VA,4,4,367,0,151
+41675,Boston MA,Arlington VA,11,30,165,0,60
+41676,Boston MA,Arlington VA,2,15,41,0,52
+41677,Boston MA,Arlington VA,8,21,-111,0,0
+41678,Boston MA,Arlington VA,4,25,-125,1,0
+41679,Boston MA,Arlington VA,10,11,-45,0,0
+41680,Boston MA,Arlington VA,3,21,18,1,0
+41681,Boston MA,Arlington VA,1,13,-80,0,0
+41682,Boston MA,Arlington VA,1,11,684,4,181
+41683,Boston MA,Arlington VA,7,30,43,0,0
+41684,Boston MA,Arlington VA,12,19,59,7,0
+41685,Boston MA,Arlington VA,9,30,-180,0,0
+41686,Boston MA,Arlington VA,11,5,-162,0,0
+41687,Boston MA,Arlington VA,9,16,-82,1,0
+41688,Boston MA,Arlington VA,3,28,404,0,62
+41689,Boston MA,Arlington VA,2,4,-90,1,0
+41690,Boston MA,Arlington VA,7,1,37,0,0
+41691,Boston MA,Arlington VA,11,10,4,0,0
+41692,Boston MA,Arlington VA,6,11,-30,0,0
+41693,Boston MA,Arlington VA,2,14,202,0,0
+41694,Boston MA,Arlington VA,12,10,97,0,0
+41695,Boston MA,Arlington VA,10,28,214,0,31
+41696,Boston MA,Arlington VA,9,2,-124,0,0
+41697,Boston MA,Arlington VA,8,18,-75,0,0
+41698,Boston MA,Arlington VA,8,4,-52,1,0
+41699,Boston MA,Arlington VA,11,23,24,0,0
+41700,Boston MA,Arlington VA,4,5,57,0,0
+41701,Boston MA,Arlington VA,8,24,-58,0,0
+41702,Boston MA,Arlington VA,9,22,-120,0,0
+41703,Boston MA,Arlington VA,10,20,-69,0,0
+41704,Boston MA,Arlington VA,1,23,73,0,0
+41705,Boston MA,Arlington VA,2,13,371,4,0
+41706,Boston MA,Arlington VA,2,10,152,0,0
+41707,Boston MA,Arlington VA,6,17,135,1,0
+41708,Boston MA,Arlington VA,7,18,168,0,155
+41709,Boston MA,Arlington VA,10,1,91,0,0
+41710,Boston MA,Arlington VA,1,24,36,0,0
+41711,Boston MA,Arlington VA,9,3,-130,0,0
+41712,Boston MA,Arlington VA,7,26,-35,0,0
+41713,Boston MA,Arlington VA,3,11,-31,0,0
+41714,Boston MA,Arlington VA,5,6,-143,0,0
+41715,Boston MA,Arlington VA,11,11,-31,0,0
+41716,Boston MA,Arlington VA,11,18,-23,0,0
+41717,Boston MA,Arlington VA,11,14,74,0,130
+41718,Boston MA,Arlington VA,4,1,128,0,73
+41719,Boston MA,Arlington VA,4,6,436,1,163
+41720,Boston MA,Arlington VA,3,2,1,0,0
+41721,Boston MA,Arlington VA,3,13,263,1,0
+41722,Boston MA,Arlington VA,10,14,-137,0,0
+41723,Boston MA,Arlington VA,11,2,-55,2,0
+41724,Boston MA,Arlington VA,7,8,93,0,0
+41725,Boston MA,Arlington VA,1,15,412,2,0
+41726,Boston MA,Arlington VA,9,25,99,0,60
+41727,Boston MA,Arlington VA,7,21,254,1,61
+41728,Boston MA,Arlington VA,7,12,-40,0,0
+41729,Boston MA,Arlington VA,2,27,-31,0,0
+41730,Boston MA,Arlington VA,8,30,-19,0,30
+41731,Boston MA,Arlington VA,11,21,22,1,20
+41732,Boston MA,Arlington VA,2,21,-41,4,0
+41733,Boston MA,Arlington VA,2,28,-80,1,0
+41734,Boston MA,Arlington VA,12,13,-55,0,0
+41735,Boston MA,Arlington VA,7,19,-53,0,0
+41736,Boston MA,Arlington VA,3,22,23,0,0
+41737,Boston MA,Arlington VA,5,8,58,0,0
+41738,Boston MA,Arlington VA,7,23,456,3,150
+41739,Boston MA,Arlington VA,9,10,-138,0,0
+41740,Boston MA,Arlington VA,1,21,26,3,0
+41741,Boston MA,Arlington VA,8,8,350,2,127
+41742,Boston MA,Arlington VA,3,8,779,0,490
+41743,Boston MA,Arlington VA,11,22,49,0,81
+41744,Boston MA,Arlington VA,1,1,43,0,0
+41745,Boston MA,Arlington VA,11,20,-45,0,0
+41746,Boston MA,Arlington VA,9,29,120,1,16
+41747,Boston MA,Arlington VA,7,7,137,0,0
+41748,Boston MA,Arlington VA,6,7,116,0,0
+41749,Boston MA,Arlington VA,8,1,0,2,0
+41750,Boston MA,Arlington VA,12,29,-45,0,0
+41751,Boston MA,Arlington VA,11,15,60,1,35
+41752,Boston MA,Arlington VA,8,20,-103,0,0
+41753,Boston MA,Arlington VA,10,9,-91,1,0
+41754,Boston MA,Arlington VA,7,9,30,3,77
+41755,Boston MA,Arlington VA,5,7,-104,0,0
+41756,Boston MA,Arlington VA,9,12,224,0,0
+41757,Boston MA,Arlington VA,9,8,-115,1,0
+41758,Boston MA,Arlington VA,11,26,-105,0,22
+41759,Boston MA,Arlington VA,6,16,466,8,0
+41760,Boston MA,Arlington VA,12,6,-77,0,0
+41761,Boston MA,Arlington VA,1,5,-36,2,0
+41762,Boston MA,Arlington VA,10,26,14,0,0
+41763,Boston MA,Arlington VA,5,24,-39,0,0
+41764,Boston MA,Arlington VA,6,15,123,1,30
+41765,Boston MA,Arlington VA,12,27,2,0,32
+41766,Boston MA,Arlington VA,12,5,-145,0,0
+41767,Boston MA,Arlington VA,2,29,111,1,0
+41768,Boston MA,Arlington VA,3,18,50,1,0
+41769,Boston MA,Arlington VA,9,4,-60,0,0
+41770,Boston MA,Arlington VA,9,20,-49,0,0
+41771,Boston MA,Arlington VA,6,9,243,0,0
+41772,Boston MA,Arlington VA,4,22,-57,0,0
+41773,Boston MA,Arlington VA,4,16,-39,0,0
+41774,Boston MA,Arlington VA,4,20,127,0,40
+41775,Boston MA,Arlington VA,12,4,-142,0,0
+41776,Boston MA,Arlington VA,1,26,-94,0,0
+41777,Boston MA,Arlington VA,10,18,-15,0,0
+41778,Boston MA,Arlington VA,1,19,-63,0,0
+41779,Boston MA,Arlington VA,3,3,-38,2,0
+41780,Boston MA,Arlington VA,1,12,-67,0,0
+41781,Boston MA,Arlington VA,5,2,-22,1,15
+41782,Boston MA,Arlington VA,5,15,-54,0,0
+41783,Boston MA,Arlington VA,9,27,-51,0,0
+41784,Boston MA,Arlington VA,12,31,68,1,51
+41785,Boston MA,Arlington VA,9,17,-138,0,0
+41786,Boston MA,Arlington VA,1,18,8,1,35
+41787,Boston MA,Arlington VA,6,6,304,1,35
+41788,Boston MA,Arlington VA,4,9,-56,1,0
+41789,Boston MA,Arlington VA,8,19,-113,0,0
+41790,Boston MA,Arlington VA,9,6,-77,1,0
+41791,Boston MA,Arlington VA,1,25,-15,0,0
+41792,Boston MA,Arlington VA,5,21,-81,1,0
+41793,Boston MA,Arlington VA,11,19,-94,0,55
+41794,Boston MA,Arlington VA,6,24,725,1,243
+41795,Boston MA,Arlington VA,5,22,-2,0,10
+41796,Boston MA,Arlington VA,1,17,604,3,144
+41797,Boston MA,Arlington VA,1,6,-121,1,0
+41798,Boston MA,Arlington VA,6,25,65,1,15
+41799,Boston MA,Arlington VA,7,10,52,1,50
+41800,Boston MA,Arlington VA,10,12,-1,0,0
+41801,Boston MA,Arlington VA,10,25,30,0,0
+41802,Boston MA,Arlington VA,2,12,158,0,22
+41803,Boston MA,Arlington VA,10,21,-97,0,0
+41804,Boston MA,Arlington VA,9,21,-120,0,0
+41805,Boston MA,Arlington VA,8,10,595,8,252
+41806,Boston MA,Arlington VA,6,8,268,0,39
+41807,Boston MA,Arlington VA,2,11,-12,1,0
+41808,Boston MA,Arlington VA,11,27,-23,0,0
+41809,Boston MA,Arlington VA,1,7,-115,0,0
+41810,Boston MA,Arlington VA,11,16,23,0,0
+41811,Boston MA,Arlington VA,6,19,294,1,0
+41812,Boston MA,Arlington VA,9,9,682,0,13
+41813,Boston MA,Arlington VA,3,20,612,1,211
+41814,Boston MA,Arlington VA,7,27,1094,11,371
+41815,Boston MA,Arlington VA,10,3,-134,0,0
+41816,Boston MA,Arlington VA,2,5,-18,1,0
+41817,Boston MA,Arlington VA,7,15,-150,0,0
+41818,Boston MA,Arlington VA,8,9,64,0,0
+41819,Boston MA,Arlington VA,2,16,19,0,0
+41820,Boston MA,Arlington VA,8,22,-140,0,0
+41821,Boston MA,Arlington VA,5,9,-45,1,0
+41822,Boston MA,Arlington VA,5,18,-10,0,43
+41823,Boston MA,Arlington VA,9,13,38,0,0
+41824,Boston MA,Arlington VA,7,24,1024,3,83
+41825,Boston MA,Arlington VA,10,24,-100,0,0
+41826,Boston MA,Arlington VA,7,31,313,0,109
+41827,Boston MA,Arlington VA,1,14,265,17,78
+41828,Boston MA,Arlington VA,4,2,-87,1,15
+41829,Boston MA,Arlington VA,5,20,-90,0,0
+41830,Boston MA,Arlington VA,9,15,-59,1,0
+41831,Boston MA,Arlington VA,4,19,-20,0,0
+41832,Boston MA,Arlington VA,5,5,60,1,25
+41833,Boston MA,Arlington VA,12,21,1012,10,466
+41834,Boston MA,Arlington VA,7,4,-94,1,0
+41835,Boston MA,Arlington VA,12,22,638,3,35
+41836,Boston MA,Arlington VA,6,30,273,1,10
+41837,Boston MA,Arlington VA,7,16,-107,0,0
+41838,Boston MA,Arlington VA,7,17,14,2,0
+41839,Boston MA,Arlington VA,3,30,-60,0,0
+41840,Boston MA,Arlington VA,9,5,-64,0,0
+41841,Boston MA,Arlington VA,5,4,413,0,197
+41842,Boston MA,Arlington VA,5,28,-77,0,0
+41843,Boston MA,Arlington VA,3,23,19,0,0
+41844,Boston MA,Arlington VA,4,29,281,0,0
+41845,Boston MA,Arlington VA,3,9,308,0,0
+41846,Boston MA,Arlington VA,8,14,954,5,0
+41847,Boston MA,Arlington VA,8,12,164,1,0
+41848,Boston MA,Arlington VA,3,12,428,0,160
+41849,Boston MA,Arlington VA,5,23,-14,0,0
+41850,Boston MA,Arlington VA,8,29,20,0,83
+41851,Boston MA,Arlington VA,9,18,-87,0,0
+41852,Boston MA,Atlanta GA,12,15,72,0,0
+41853,Boston MA,Atlanta GA,6,5,552,1,0
+41854,Boston MA,Atlanta GA,4,3,-34,0,0
+41855,Boston MA,Atlanta GA,12,26,923,1,0
+41856,Boston MA,Atlanta GA,10,13,182,0,0
+41857,Boston MA,Atlanta GA,12,14,-18,0,0
+41858,Boston MA,Atlanta GA,7,22,325,1,0
+41859,Boston MA,Atlanta GA,1,3,201,1,0
+41860,Boston MA,Atlanta GA,12,24,121,0,7
+41861,Boston MA,Atlanta GA,9,28,136,0,0
+41862,Boston MA,Atlanta GA,6,23,188,0,0
+41863,Boston MA,Atlanta GA,12,20,1074,0,159
+41864,Boston MA,Atlanta GA,5,25,-51,1,0
+41865,Boston MA,Atlanta GA,9,26,73,0,0
+41866,Boston MA,Atlanta GA,9,14,575,0,0
+41867,Boston MA,Atlanta GA,5,19,47,0,0
+41868,Boston MA,Atlanta GA,12,30,177,0,0
+41869,Boston MA,Atlanta GA,11,4,-48,0,0
+41870,Boston MA,Atlanta GA,10,29,-64,0,0
+41871,Boston MA,Atlanta GA,5,29,-44,0,0
+41872,Boston MA,Atlanta GA,12,28,154,0,0
+41873,Boston MA,Atlanta GA,12,17,150,0,2
+41874,Boston MA,Atlanta GA,3,27,111,3,0
+41875,Boston MA,Atlanta GA,6,10,70,0,0
+41876,Boston MA,Atlanta GA,11,3,13,0,0
+41877,Boston MA,Atlanta GA,1,8,-37,0,0
+41878,Boston MA,Atlanta GA,6,28,194,1,0
+41879,Boston MA,Atlanta GA,3,21,-18,0,0
+41880,Boston MA,Atlanta GA,11,21,27,0,0
+41881,Boston MA,Atlanta GA,5,3,-50,0,0
+41882,Boston MA,Atlanta GA,5,27,439,0,0
+41883,Boston MA,Atlanta GA,7,2,481,0,0
+41884,Boston MA,Atlanta GA,11,7,236,0,0
+41885,Boston MA,Atlanta GA,2,17,722,0,0
+41886,Boston MA,Atlanta GA,7,20,358,0,22
+41887,Boston MA,Atlanta GA,5,10,24,0,0
+41888,Boston MA,Atlanta GA,7,26,228,0,0
+41889,Boston MA,Atlanta GA,1,7,-32,0,0
+41890,Boston MA,Atlanta GA,11,23,-9,0,0
+41891,Boston MA,Atlanta GA,10,10,114,0,0
+41892,Boston MA,Atlanta GA,2,29,-6,1,0
+41893,Boston MA,Atlanta GA,7,14,440,2,0
+41894,Boston MA,Atlanta GA,8,3,348,0,0
+41895,Boston MA,Atlanta GA,11,17,2,0,0
+41896,Boston MA,Atlanta GA,10,4,61,0,0
+41897,Boston MA,Atlanta GA,2,22,395,3,56
+41898,Boston MA,Atlanta GA,8,20,16,0,0
+41899,Boston MA,Atlanta GA,4,30,72,0,0
+41900,Boston MA,Atlanta GA,4,10,113,0,0
+41901,Boston MA,Atlanta GA,7,28,114,0,0
+41902,Boston MA,Atlanta GA,10,27,50,0,0
+41903,Boston MA,Atlanta GA,9,6,-29,0,0
+41904,Boston MA,Atlanta GA,1,28,46,0,0
+41905,Boston MA,Atlanta GA,1,10,-54,0,0
+41906,Boston MA,Atlanta GA,4,21,391,0,0
+41907,Boston MA,Atlanta GA,2,16,-16,0,0
+41908,Boston MA,Atlanta GA,12,18,102,0,0
+41909,Boston MA,Atlanta GA,5,31,26,0,0
+41910,Boston MA,Atlanta GA,12,9,24,1,0
+41911,Boston MA,Atlanta GA,4,12,-8,0,0
+41912,Boston MA,Atlanta GA,11,6,471,0,5
+41913,Boston MA,Atlanta GA,8,21,2,0,0
+41914,Boston MA,Atlanta GA,8,13,1,0,0
+41915,Boston MA,Atlanta GA,12,7,112,0,0
+41916,Boston MA,Atlanta GA,7,3,20,0,0
+41917,Boston MA,Atlanta GA,5,18,39,0,0
+41918,Boston MA,Atlanta GA,3,8,736,1,0
+41919,Boston MA,Atlanta GA,2,18,390,0,0
+41920,Boston MA,Atlanta GA,5,13,-43,0,0
+41921,Boston MA,Atlanta GA,11,8,-46,0,0
+41922,Boston MA,Atlanta GA,2,10,71,0,0
+41923,Boston MA,Atlanta GA,1,21,38,0,0
+41924,Boston MA,Atlanta GA,6,4,359,0,0
+41925,Boston MA,Atlanta GA,10,5,203,0,0
+41926,Boston MA,Atlanta GA,6,12,38,0,0
+41927,Boston MA,Atlanta GA,3,2,17,0,0
+41928,Boston MA,Atlanta GA,10,24,1196,0,0
+41929,Boston MA,Atlanta GA,8,4,278,0,0
+41930,Boston MA,Atlanta GA,9,29,-1,0,0
+41931,Boston MA,Atlanta GA,11,2,83,0,0
+41932,Boston MA,Atlanta GA,7,7,95,2,0
+41933,Boston MA,Atlanta GA,10,17,136,0,0
+41934,Boston MA,Atlanta GA,2,25,-35,0,0
+41935,Boston MA,Atlanta GA,8,7,1426,0,0
+41936,Boston MA,Atlanta GA,3,31,181,0,0
+41937,Boston MA,Atlanta GA,3,15,434,0,0
+41938,Boston MA,Atlanta GA,5,16,-17,0,0
+41939,Boston MA,Atlanta GA,4,5,14,0,0
+41940,Boston MA,Atlanta GA,12,1,121,0,0
+41941,Boston MA,Atlanta GA,1,22,13,1,0
+41942,Boston MA,Atlanta GA,3,29,21,0,0
+41943,Boston MA,Atlanta GA,10,23,-17,0,0
+41944,Boston MA,Atlanta GA,6,2,-55,0,0
+41945,Boston MA,Atlanta GA,3,16,28,1,0
+41946,Boston MA,Atlanta GA,2,8,172,1,5
+41947,Boston MA,Atlanta GA,2,20,-18,0,0
+41948,Boston MA,Atlanta GA,3,14,184,0,0
+41949,Boston MA,Atlanta GA,8,30,-52,0,0
+41950,Boston MA,Atlanta GA,4,28,681,0,0
+41951,Boston MA,Atlanta GA,5,28,32,0,0
+41952,Boston MA,Atlanta GA,2,9,-41,0,0
+41953,Boston MA,Atlanta GA,10,2,-22,0,0
+41954,Boston MA,Atlanta GA,12,8,18,0,0
+41955,Boston MA,Atlanta GA,2,1,128,0,9
+41956,Boston MA,Atlanta GA,5,4,82,1,0
+41957,Boston MA,Atlanta GA,2,5,-20,0,0
+41958,Boston MA,Atlanta GA,7,12,76,0,0
+41959,Boston MA,Atlanta GA,9,21,123,0,0
+41960,Boston MA,Atlanta GA,7,5,144,0,0
+41961,Boston MA,Atlanta GA,11,12,-22,2,0
+41962,Boston MA,Atlanta GA,11,13,694,0,0
+41963,Boston MA,Atlanta GA,1,16,-31,1,0
+41964,Boston MA,Atlanta GA,4,18,48,0,0
+41965,Boston MA,Atlanta GA,1,15,17,1,0
+41966,Boston MA,Atlanta GA,9,23,117,0,0
+41967,Boston MA,Atlanta GA,5,17,-11,0,0
+41968,Boston MA,Atlanta GA,8,15,241,0,0
+41969,Boston MA,Atlanta GA,6,8,481,0,0
+41970,Boston MA,Atlanta GA,1,13,378,0,0
+41971,Boston MA,Atlanta GA,1,23,19,0,0
+41972,Boston MA,Atlanta GA,12,27,448,0,0
+41973,Boston MA,Atlanta GA,11,25,541,1,0
+41974,Boston MA,Atlanta GA,4,11,107,0,0
+41975,Boston MA,Atlanta GA,10,20,-31,0,0
+41976,Boston MA,Atlanta GA,11,11,12,0,0
+41977,Boston MA,Atlanta GA,6,27,673,0,128
+41978,Boston MA,Atlanta GA,4,14,-17,0,0
+41979,Boston MA,Atlanta GA,6,29,301,0,0
+41980,Boston MA,Atlanta GA,5,6,-36,0,0
+41981,Boston MA,Atlanta GA,1,6,214,1,0
+41982,Boston MA,Atlanta GA,9,2,140,0,0
+41983,Boston MA,Atlanta GA,7,18,182,0,0
+41984,Boston MA,Atlanta GA,5,14,-26,0,0
+41985,Boston MA,Atlanta GA,4,19,76,0,0
+41986,Boston MA,Atlanta GA,9,11,-7,0,0
+41987,Boston MA,Atlanta GA,6,14,27,0,0
+41988,Boston MA,Atlanta GA,10,7,13,0,0
+41989,Boston MA,Atlanta GA,1,4,17,1,0
+41990,Boston MA,Atlanta GA,8,26,848,0,0
+41991,Boston MA,Atlanta GA,5,8,29,0,0
+41992,Boston MA,Atlanta GA,1,2,255,0,0
+41993,Boston MA,Atlanta GA,12,2,124,0,0
+41994,Boston MA,Atlanta GA,11,28,-55,0,0
+41995,Boston MA,Atlanta GA,3,11,160,0,0
+41996,Boston MA,Atlanta GA,11,5,-81,0,0
+41997,Boston MA,Atlanta GA,4,22,-40,0,0
+41998,Boston MA,Atlanta GA,9,18,49,0,0
+41999,Boston MA,Atlanta GA,1,24,4,0,0
+42000,Boston MA,Atlanta GA,2,26,301,0,0
+42001,Boston MA,Atlanta GA,6,11,128,0,0
+42002,Boston MA,Atlanta GA,5,7,28,0,0
+42003,Boston MA,Atlanta GA,3,17,81,0,0
+42004,Boston MA,Atlanta GA,8,8,225,0,0
+42005,Boston MA,Atlanta GA,4,26,11,0,0
+42006,Boston MA,Atlanta GA,11,1,41,0,0
+42007,Boston MA,Atlanta GA,1,11,341,0,0
+42008,Boston MA,Atlanta GA,4,9,-15,0,0
+42009,Boston MA,Atlanta GA,10,11,44,0,0
+42010,Boston MA,Atlanta GA,6,13,44,0,0
+42011,Boston MA,Atlanta GA,12,23,313,0,17
+42012,Boston MA,Atlanta GA,5,23,61,0,0
+42013,Boston MA,Atlanta GA,7,23,874,2,0
+42014,Boston MA,Atlanta GA,2,7,71,0,0
+42015,Boston MA,Atlanta GA,4,24,95,1,0
+42016,Boston MA,Atlanta GA,10,22,36,1,0
+42017,Boston MA,Atlanta GA,1,20,-22,1,0
+42018,Boston MA,Atlanta GA,1,19,499,3,0
+42019,Boston MA,Atlanta GA,9,25,303,0,0
+42020,Boston MA,Atlanta GA,6,9,606,1,0
+42021,Boston MA,Atlanta GA,5,24,-22,0,0
+42022,Boston MA,Atlanta GA,1,17,312,0,0
+42023,Boston MA,Atlanta GA,8,12,649,0,0
+42024,Boston MA,Atlanta GA,11,16,-36,0,0
+42025,Boston MA,Atlanta GA,10,19,-7,0,0
+42026,Boston MA,Atlanta GA,9,5,12,0,0
+42027,Boston MA,Atlanta GA,6,18,145,0,0
+42028,Boston MA,Atlanta GA,2,24,111,0,0
+42029,Boston MA,Atlanta GA,10,14,117,0,0
+42030,Boston MA,Atlanta GA,7,6,586,0,0
+42031,Boston MA,Atlanta GA,10,15,1,0,0
+42032,Boston MA,Atlanta GA,4,8,-53,0,0
+42033,Boston MA,Atlanta GA,7,27,1312,0,156
+42034,Boston MA,Atlanta GA,8,11,474,0,0
+42035,Boston MA,Atlanta GA,6,7,-41,0,0
+42036,Boston MA,Atlanta GA,6,24,508,0,0
+42037,Boston MA,Atlanta GA,5,5,79,0,0
+42038,Boston MA,Atlanta GA,8,14,299,0,0
+42039,Boston MA,Atlanta GA,9,4,8,0,0
+42040,Boston MA,Atlanta GA,12,11,328,1,0
+42041,Boston MA,Atlanta GA,7,25,335,0,0
+42042,Boston MA,Atlanta GA,3,26,-52,0,0
+42043,Boston MA,Atlanta GA,4,27,258,0,0
+42044,Boston MA,Atlanta GA,11,27,-17,0,0
+42045,Boston MA,Atlanta GA,5,26,-55,0,0
+42046,Boston MA,Atlanta GA,1,31,-49,0,0
+42047,Boston MA,Atlanta GA,2,2,-66,0,0
+42048,Boston MA,Atlanta GA,4,13,-15,0,0
+42049,Boston MA,Atlanta GA,8,16,1,0,0
+42050,Boston MA,Atlanta GA,12,10,336,1,0
+42051,Boston MA,Atlanta GA,8,5,-7,0,0
+42052,Boston MA,Atlanta GA,8,17,7,0,0
+42053,Boston MA,Atlanta GA,3,3,43,0,0
+42054,Boston MA,Atlanta GA,3,7,87,0,0
+42055,Boston MA,Atlanta GA,2,19,44,0,0
+42056,Boston MA,Atlanta GA,9,7,14,0,0
+42057,Boston MA,Atlanta GA,2,3,-100,0,0
+42058,Boston MA,Atlanta GA,9,22,184,0,0
+42059,Boston MA,Atlanta GA,11,20,82,0,0
+42060,Boston MA,Atlanta GA,1,14,301,8,22
+42061,Boston MA,Atlanta GA,6,25,37,0,0
+42062,Boston MA,Atlanta GA,8,2,435,0,0
+42063,Boston MA,Atlanta GA,9,30,-51,0,0
+42064,Boston MA,Atlanta GA,3,6,-38,0,0
+42065,Boston MA,Atlanta GA,7,9,327,0,0
+42066,Boston MA,Atlanta GA,7,31,1010,2,0
+42067,Boston MA,Atlanta GA,8,18,485,0,0
+42068,Boston MA,Atlanta GA,1,27,172,0,0
+42069,Boston MA,Atlanta GA,10,3,-9,0,0
+42070,Boston MA,Atlanta GA,10,18,17,0,0
+42071,Boston MA,Atlanta GA,8,28,-28,0,0
+42072,Boston MA,Atlanta GA,6,26,43,0,0
+42073,Boston MA,Atlanta GA,3,4,476,0,0
+42074,Boston MA,Atlanta GA,12,29,297,0,0
+42075,Boston MA,Atlanta GA,10,25,-35,0,0
+42076,Boston MA,Atlanta GA,8,29,-58,0,0
+42077,Boston MA,Atlanta GA,9,1,114,0,0
+42078,Boston MA,Atlanta GA,4,20,80,0,0
+42079,Boston MA,Atlanta GA,5,9,129,0,0
+42080,Boston MA,Atlanta GA,9,16,-66,0,0
+42081,Boston MA,Atlanta GA,3,25,49,0,0
+42082,Boston MA,Atlanta GA,11,9,-7,0,0
+42083,Boston MA,Atlanta GA,11,29,114,0,0
+42084,Boston MA,Atlanta GA,6,3,94,0,0
+42085,Boston MA,Atlanta GA,3,12,145,0,0
+42086,Boston MA,Atlanta GA,1,9,-44,0,0
+42087,Boston MA,Atlanta GA,7,16,-29,0,0
+42088,Boston MA,Atlanta GA,9,3,-67,0,0
+42089,Boston MA,Atlanta GA,9,13,109,0,0
+42090,Boston MA,Atlanta GA,6,30,130,0,0
+42091,Boston MA,Atlanta GA,4,7,130,0,0
+42092,Boston MA,Atlanta GA,5,22,38,0,5
+42093,Boston MA,Atlanta GA,2,13,153,1,15
+42094,Boston MA,Atlanta GA,11,22,-48,0,0
+42095,Boston MA,Atlanta GA,9,20,-29,0,0
+42096,Boston MA,Atlanta GA,12,21,1693,2,143
+42097,Boston MA,Atlanta GA,10,26,-54,0,0
+42098,Boston MA,Atlanta GA,3,28,200,0,0
+42099,Boston MA,Atlanta GA,12,5,45,0,0
+42100,Boston MA,Atlanta GA,7,4,-20,0,0
+42101,Boston MA,Atlanta GA,1,29,149,0,0
+42102,Boston MA,Atlanta GA,7,15,-5,0,0
+42103,Boston MA,Atlanta GA,10,12,219,0,0
+42104,Boston MA,Atlanta GA,10,16,89,0,0
+42105,Boston MA,Atlanta GA,6,19,94,0,0
+42106,Boston MA,Atlanta GA,8,23,-29,0,0
+42107,Boston MA,Atlanta GA,3,19,410,0,0
+42108,Boston MA,Atlanta GA,8,25,1045,0,0
+42109,Boston MA,Atlanta GA,12,3,24,0,0
+42110,Boston MA,Atlanta GA,9,27,34,0,0
+42111,Boston MA,Atlanta GA,9,24,113,0,0
+42112,Boston MA,Atlanta GA,6,22,291,0,0
+42113,Boston MA,Atlanta GA,8,27,-16,0,0
+42114,Boston MA,Atlanta GA,7,29,249,0,0
+42115,Boston MA,Atlanta GA,9,9,65,0,0
+42116,Boston MA,Atlanta GA,3,30,88,0,0
+42117,Boston MA,Atlanta GA,3,23,8,0,0
+42118,Boston MA,Atlanta GA,12,19,622,1,23
+42119,Boston MA,Atlanta GA,2,23,337,1,0
+42120,Boston MA,Atlanta GA,4,17,-18,0,0
+42121,Boston MA,Atlanta GA,10,9,28,0,0
+42122,Boston MA,Atlanta GA,12,12,202,1,0
+42123,Boston MA,Atlanta GA,7,11,102,0,0
+42124,Boston MA,Atlanta GA,4,25,41,0,0
+42125,Boston MA,Atlanta GA,7,17,68,0,0
+42126,Boston MA,Atlanta GA,3,1,30,0,0
+42127,Boston MA,Atlanta GA,5,11,-39,0,0
+42128,Boston MA,Atlanta GA,6,6,337,1,0
+42129,Boston MA,Atlanta GA,12,4,-8,1,0
+42130,Boston MA,Atlanta GA,5,20,254,0,0
+42131,Boston MA,Atlanta GA,5,12,23,0,0
+42132,Boston MA,Atlanta GA,2,12,232,0,0
+42133,Boston MA,Atlanta GA,7,21,234,0,0
+42134,Boston MA,Atlanta GA,11,24,96,0,0
+42135,Boston MA,Atlanta GA,7,30,55,0,0
+42136,Boston MA,Atlanta GA,1,1,149,0,16
+42137,Boston MA,Atlanta GA,4,1,147,0,0
+42138,Boston MA,Atlanta GA,3,20,108,0,0
+42139,Boston MA,Atlanta GA,6,17,-25,0,0
+42140,Boston MA,Atlanta GA,2,14,81,0,0
+42141,Boston MA,Atlanta GA,1,18,23,0,0
+42142,Boston MA,Atlanta GA,8,6,382,0,0
+42143,Boston MA,Atlanta GA,4,23,46,0,0
+42144,Boston MA,Atlanta GA,12,31,152,1,52
+42145,Boston MA,Atlanta GA,10,30,-1,1,0
+42146,Boston MA,Atlanta GA,3,5,202,0,15
+42147,Boston MA,Atlanta GA,8,24,88,2,0
+42148,Boston MA,Atlanta GA,10,8,499,0,0
+42149,Boston MA,Atlanta GA,4,15,111,0,0
+42150,Boston MA,Atlanta GA,10,1,78,0,0
+42151,Boston MA,Atlanta GA,4,2,-1,0,0
+42152,Boston MA,Atlanta GA,7,19,189,0,0
+42153,Boston MA,Atlanta GA,2,15,90,0,0
+42154,Boston MA,Atlanta GA,12,22,399,0,108
+42155,Boston MA,Atlanta GA,5,1,27,0,0
+42156,Boston MA,Atlanta GA,12,25,-12,0,0
+42157,Boston MA,Atlanta GA,3,9,72,0,0
+42158,Boston MA,Atlanta GA,6,15,352,1,0
+42159,Boston MA,Atlanta GA,8,1,418,1,0
+42160,Boston MA,Atlanta GA,1,5,-25,0,0
+42161,Boston MA,Atlanta GA,11,30,783,0,39
+42162,Boston MA,Atlanta GA,12,6,-39,0,0
+42163,Boston MA,Atlanta GA,11,26,-25,0,0
+42164,Boston MA,Atlanta GA,11,14,844,1,0
+42165,Boston MA,Atlanta GA,10,31,-27,0,0
+42166,Boston MA,Atlanta GA,2,27,-14,0,0
+42167,Boston MA,Atlanta GA,4,6,310,0,0
+42168,Boston MA,Atlanta GA,2,6,-4,0,0
+42169,Boston MA,Atlanta GA,3,10,14,0,0
+42170,Boston MA,Atlanta GA,6,21,-8,0,0
+42171,Boston MA,Atlanta GA,11,19,68,0,0
+42172,Boston MA,Atlanta GA,3,18,133,1,0
+42173,Boston MA,Atlanta GA,9,10,-46,0,0
+42174,Boston MA,Atlanta GA,10,21,-64,0,0
+42175,Boston MA,Atlanta GA,9,8,270,0,0
+42176,Boston MA,Atlanta GA,5,15,21,0,0
+42177,Boston MA,Atlanta GA,2,21,26,1,0
+42178,Boston MA,Atlanta GA,12,16,31,1,0
+42179,Boston MA,Atlanta GA,9,17,8,0,0
+42180,Boston MA,Atlanta GA,10,6,-27,1,0
+42181,Boston MA,Atlanta GA,6,1,-16,0,0
+42182,Boston MA,Atlanta GA,1,26,-37,2,0
+42183,Boston MA,Atlanta GA,7,13,758,3,0
+42184,Boston MA,Atlanta GA,12,13,-45,0,0
+42185,Boston MA,Atlanta GA,1,12,-26,1,0
+42186,Boston MA,Atlanta GA,9,15,74,0,0
+42187,Boston MA,Atlanta GA,6,20,257,0,0
+42188,Boston MA,Atlanta GA,10,28,185,0,0
+42189,Boston MA,Atlanta GA,5,21,0,0,0
+42190,Boston MA,Atlanta GA,4,16,79,0,0
+42191,Boston MA,Atlanta GA,2,4,33,0,0
+42192,Boston MA,Atlanta GA,2,28,-15,0,0
+42193,Boston MA,Atlanta GA,4,4,575,1,0
+42194,Boston MA,Atlanta GA,8,31,-67,0,0
+42195,Boston MA,Atlanta GA,8,10,1037,0,16
+42196,Boston MA,Atlanta GA,1,30,-62,0,0
+42197,Boston MA,Atlanta GA,11,15,54,0,0
+42198,Boston MA,Atlanta GA,3,22,-24,1,0
+42199,Boston MA,Atlanta GA,3,13,-20,0,0
+42200,Boston MA,Atlanta GA,8,19,33,0,0
+42201,Boston MA,Atlanta GA,9,12,89,0,0
+42202,Boston MA,Atlanta GA,7,8,289,0,0
+42203,Boston MA,Atlanta GA,8,22,95,0,0
+42204,Boston MA,Atlanta GA,6,16,303,0,0
+42205,Boston MA,Atlanta GA,5,2,173,0,0
+42206,Boston MA,Atlanta GA,8,9,43,0,0
+42207,Boston MA,Atlanta GA,5,30,-53,0,0
+42208,Boston MA,Atlanta GA,7,24,731,0,0
+42209,Boston MA,Atlanta GA,11,10,-27,0,0
+42210,Boston MA,Atlanta GA,11,18,-77,0,0
+42211,Boston MA,Atlanta GA,4,29,306,1,0
+42212,Boston MA,Atlanta GA,9,19,49,0,0
+42213,Boston MA,Atlanta GA,1,25,297,0,0
+42214,Boston MA,Atlanta GA,3,24,72,0,0
+42215,Boston MA,Atlanta GA,2,11,80,0,103
+42216,Boston MA,Atlanta GA,7,10,457,0,0
+42217,Boston MA,Atlanta GA,7,1,28,0,0
+42218,Boston MA,Chicago IL,2,16,92,0,0
+42219,Boston MA,Chicago IL,2,4,627,6,0
+42220,Boston MA,Chicago IL,4,15,110,1,0
+42221,Boston MA,Chicago IL,10,15,297,0,0
+42222,Boston MA,Chicago IL,10,17,-68,1,0
+42223,Boston MA,Chicago IL,5,15,74,0,0
+42224,Boston MA,Chicago IL,8,26,35,0,0
+42225,Boston MA,Chicago IL,12,12,14,0,0
+42226,Boston MA,Chicago IL,10,10,-79,0,0
+42227,Boston MA,Chicago IL,9,28,76,0,0
+42228,Boston MA,Chicago IL,4,22,326,0,0
+42229,Boston MA,Chicago IL,6,11,273,1,0
+42230,Boston MA,Chicago IL,9,14,1065,1,0
+42231,Boston MA,Chicago IL,3,14,-11,0,0
+42232,Boston MA,Chicago IL,10,7,97,0,0
+42233,Boston MA,Chicago IL,4,17,16,0,0
+42234,Boston MA,Chicago IL,7,2,1109,2,52
+42235,Boston MA,Chicago IL,11,25,127,0,0
+42236,Boston MA,Chicago IL,3,26,23,3,0
+42237,Boston MA,Chicago IL,8,3,550,1,88
+42238,Boston MA,Chicago IL,8,10,672,1,129
+42239,Boston MA,Chicago IL,2,7,155,1,4
+42240,Boston MA,Chicago IL,11,24,-64,0,0
+42241,Boston MA,Chicago IL,11,28,2,0,38
+42242,Boston MA,Chicago IL,3,31,786,5,0
+42243,Boston MA,Chicago IL,2,25,553,1,0
+42244,Boston MA,Chicago IL,11,8,-74,0,0
+42245,Boston MA,Chicago IL,11,4,-114,0,0
+42246,Boston MA,Chicago IL,2,13,194,5,6
+42247,Boston MA,Chicago IL,11,17,88,0,0
+42248,Boston MA,Chicago IL,12,26,579,4,0
+42249,Boston MA,Chicago IL,4,4,440,1,0
+42250,Boston MA,Chicago IL,12,1,1291,0,0
+42251,Boston MA,Chicago IL,4,21,339,0,0
+42252,Boston MA,Chicago IL,8,1,564,0,0
+42253,Boston MA,Chicago IL,2,26,561,3,0
+42254,Boston MA,Chicago IL,6,23,528,0,93
+42255,Boston MA,Chicago IL,7,21,339,4,0
+42256,Boston MA,Chicago IL,7,14,219,1,0
+42257,Boston MA,Chicago IL,9,15,-5,0,0
+42258,Boston MA,Chicago IL,3,25,235,1,0
+42259,Boston MA,Chicago IL,12,18,105,1,0
+42260,Boston MA,Chicago IL,7,22,-6,1,7
+42261,Boston MA,Chicago IL,2,1,628,3,27
+42262,Boston MA,Chicago IL,6,28,560,1,0
+42263,Boston MA,Chicago IL,11,13,-13,0,0
+42264,Boston MA,Chicago IL,10,13,146,0,0
+42265,Boston MA,Chicago IL,12,24,363,1,0
+42266,Boston MA,Chicago IL,3,27,938,3,0
+42267,Boston MA,Chicago IL,4,10,734,7,0
+42268,Boston MA,Chicago IL,4,11,201,6,0
+42269,Boston MA,Chicago IL,9,21,127,0,0
+42270,Boston MA,Chicago IL,1,16,54,1,0
+42271,Boston MA,Chicago IL,2,3,200,4,0
+42272,Boston MA,Chicago IL,6,20,225,1,0
+42273,Boston MA,Chicago IL,10,29,-57,1,0
+42274,Boston MA,Chicago IL,7,20,874,0,0
+42275,Boston MA,Chicago IL,9,25,-44,0,0
+42276,Boston MA,Chicago IL,1,8,577,1,0
+42277,Boston MA,Chicago IL,11,3,69,2,0
+42278,Boston MA,Chicago IL,8,15,726,0,7
+42279,Boston MA,Chicago IL,12,2,-9,0,0
+42280,Boston MA,Chicago IL,8,19,539,0,0
+42281,Boston MA,Chicago IL,12,11,133,0,0
+42282,Boston MA,Chicago IL,5,16,42,0,0
+42283,Boston MA,Chicago IL,1,23,885,3,0
+42284,Boston MA,Chicago IL,12,15,94,0,0
+42285,Boston MA,Chicago IL,7,8,225,0,0
+42286,Boston MA,Chicago IL,7,25,537,1,0
+42287,Boston MA,Chicago IL,10,27,354,0,0
+42288,Boston MA,Chicago IL,3,1,145,0,33
+42289,Boston MA,Chicago IL,6,6,1016,2,0
+42290,Boston MA,Chicago IL,4,12,167,3,0
+42291,Boston MA,Chicago IL,10,5,21,1,0
+42292,Boston MA,Chicago IL,10,2,-62,0,0
+42293,Boston MA,Chicago IL,11,29,47,0,0
+42294,Boston MA,Chicago IL,5,30,845,2,0
+42295,Boston MA,Chicago IL,3,10,-21,1,0
+42296,Boston MA,Chicago IL,2,20,-100,1,0
+42297,Boston MA,Chicago IL,1,4,-49,2,0
+42298,Boston MA,Chicago IL,5,31,-43,0,0
+42299,Boston MA,Chicago IL,9,19,315,0,0
+42300,Boston MA,Chicago IL,5,25,-92,0,0
+42301,Boston MA,Chicago IL,1,10,472,0,0
+42302,Boston MA,Chicago IL,10,30,-22,1,0
+42303,Boston MA,Chicago IL,1,27,294,1,21
+42304,Boston MA,Chicago IL,1,31,620,6,0
+42305,Boston MA,Chicago IL,12,6,-3,0,0
+42306,Boston MA,Chicago IL,5,7,282,2,0
+42307,Boston MA,Chicago IL,5,26,-132,1,0
+42308,Boston MA,Chicago IL,4,25,899,4,0
+42309,Boston MA,Chicago IL,8,4,1759,4,0
+42310,Boston MA,Chicago IL,9,7,15,0,0
+42311,Boston MA,Chicago IL,2,19,-28,0,0
+42312,Boston MA,Chicago IL,11,16,221,0,0
+42313,Boston MA,Chicago IL,5,29,-34,0,0
+42314,Boston MA,Chicago IL,6,27,739,0,107
+42315,Boston MA,Chicago IL,8,27,-110,1,0
+42316,Boston MA,Chicago IL,4,28,836,1,0
+42317,Boston MA,Chicago IL,9,26,486,0,0
+42318,Boston MA,Chicago IL,11,6,349,1,0
+42319,Boston MA,Chicago IL,1,28,792,4,0
+42320,Boston MA,Chicago IL,5,13,-31,0,0
+42321,Boston MA,Chicago IL,4,14,-78,0,0
+42322,Boston MA,Chicago IL,5,6,-131,0,0
+42323,Boston MA,Chicago IL,5,20,-12,1,0
+42324,Boston MA,Chicago IL,6,10,406,1,37
+42325,Boston MA,Chicago IL,6,9,705,1,0
+42326,Boston MA,Chicago IL,10,22,140,0,0
+42327,Boston MA,Chicago IL,2,8,441,3,37
+42328,Boston MA,Chicago IL,5,19,110,0,0
+42329,Boston MA,Chicago IL,1,22,544,1,0
+42330,Boston MA,Chicago IL,1,15,-10,0,0
+42331,Boston MA,Chicago IL,3,20,272,2,0
+42332,Boston MA,Chicago IL,4,2,41,1,0
+42333,Boston MA,Chicago IL,3,15,27,0,0
+42334,Boston MA,Chicago IL,12,28,29,1,0
+42335,Boston MA,Chicago IL,9,27,-47,0,0
+42336,Boston MA,Chicago IL,12,17,395,1,91
+42337,Boston MA,Chicago IL,4,5,-23,2,0
+42338,Boston MA,Chicago IL,10,20,50,1,0
+42339,Boston MA,Chicago IL,3,18,274,1,0
+42340,Boston MA,Chicago IL,4,24,-64,0,0
+42341,Boston MA,Chicago IL,5,17,-101,0,0
+42342,Boston MA,Chicago IL,4,16,294,0,0
+42343,Boston MA,Chicago IL,10,21,-56,0,0
+42344,Boston MA,Chicago IL,10,28,78,0,0
+42345,Boston MA,Chicago IL,8,20,132,0,0
+42346,Boston MA,Chicago IL,11,22,-46,0,0
+42347,Boston MA,Chicago IL,4,30,-54,0,0
+42348,Boston MA,Chicago IL,9,11,-107,0,0
+42349,Boston MA,Chicago IL,11,14,230,0,0
+42350,Boston MA,Chicago IL,3,11,-11,0,0
+42351,Boston MA,Chicago IL,3,30,826,1,0
+42352,Boston MA,Chicago IL,8,21,11,1,0
+42353,Boston MA,Chicago IL,8,11,705,1,0
+42354,Boston MA,Chicago IL,5,4,676,1,0
+42355,Boston MA,Chicago IL,8,14,197,1,0
+42356,Boston MA,Chicago IL,11,10,-79,1,0
+42357,Boston MA,Chicago IL,1,1,545,1,22
+42358,Boston MA,Chicago IL,7,1,207,0,46
+42359,Boston MA,Chicago IL,3,28,799,2,0
+42360,Boston MA,Chicago IL,12,8,-89,0,17
+42361,Boston MA,Chicago IL,11,26,-76,0,0
+42362,Boston MA,Chicago IL,7,6,199,0,0
+42363,Boston MA,Chicago IL,2,24,-70,0,0
+42364,Boston MA,Chicago IL,12,9,173,2,0
+42365,Boston MA,Chicago IL,6,25,239,0,0
+42366,Boston MA,Chicago IL,2,12,227,5,0
+42367,Boston MA,Chicago IL,3,13,341,1,0
+42368,Boston MA,Chicago IL,7,15,-79,0,0
+42369,Boston MA,Chicago IL,4,3,27,0,0
+42370,Boston MA,Chicago IL,2,10,361,2,30
+42371,Boston MA,Chicago IL,1,12,1,0,0
+42372,Boston MA,Chicago IL,10,1,-36,0,0
+42373,Boston MA,Chicago IL,6,3,698,1,0
+42374,Boston MA,Chicago IL,6,26,388,1,24
+42375,Boston MA,Chicago IL,6,2,-87,0,0
+42376,Boston MA,Chicago IL,9,29,585,0,0
+42377,Boston MA,Chicago IL,3,5,-76,0,0
+42378,Boston MA,Chicago IL,6,4,805,1,0
+42379,Boston MA,Chicago IL,5,28,47,0,0
+42380,Boston MA,Chicago IL,12,22,757,0,137
+42381,Boston MA,Chicago IL,1,18,52,1,0
+42382,Boston MA,Chicago IL,1,30,14,2,0
+42383,Boston MA,Chicago IL,12,4,19,0,0
+42384,Boston MA,Chicago IL,9,24,-2,0,0
+42385,Boston MA,Chicago IL,12,27,475,1,0
+42386,Boston MA,Chicago IL,3,24,-41,0,0
+42387,Boston MA,Chicago IL,3,9,625,1,0
+42388,Boston MA,Chicago IL,4,7,-38,1,0
+42389,Boston MA,Chicago IL,9,20,-30,0,0
+42390,Boston MA,Chicago IL,2,29,494,2,0
+42391,Boston MA,Chicago IL,12,13,40,1,0
+42392,Boston MA,Chicago IL,11,1,-54,0,0
+42393,Boston MA,Chicago IL,4,9,-4,9,0
+42394,Boston MA,Chicago IL,4,18,215,2,0
+42395,Boston MA,Chicago IL,3,7,277,1,0
+42396,Boston MA,Chicago IL,9,17,413,0,0
+42397,Boston MA,Chicago IL,2,9,14,1,18
+42398,Boston MA,Chicago IL,2,28,-2,2,0
+42399,Boston MA,Chicago IL,8,18,41,0,0
+42400,Boston MA,Chicago IL,5,10,-35,0,0
+42401,Boston MA,Chicago IL,4,20,468,0,147
+42402,Boston MA,Chicago IL,8,13,63,0,0
+42403,Boston MA,Chicago IL,12,16,320,4,0
+42404,Boston MA,Chicago IL,12,20,1523,2,833
+42405,Boston MA,Chicago IL,8,30,-80,0,0
+42406,Boston MA,Chicago IL,10,4,-27,0,0
+42407,Boston MA,Chicago IL,11,18,250,0,0
+42408,Boston MA,Chicago IL,9,6,-49,0,0
+42409,Boston MA,Chicago IL,11,7,145,1,0
+42410,Boston MA,Chicago IL,8,7,898,1,119
+42411,Boston MA,Chicago IL,1,29,938,3,0
+42412,Boston MA,Chicago IL,7,19,391,0,0
+42413,Boston MA,Chicago IL,5,21,115,0,0
+42414,Boston MA,Chicago IL,9,9,176,4,11
+42415,Boston MA,Chicago IL,2,14,-5,1,0
+42416,Boston MA,Chicago IL,11,30,1106,0,0
+42417,Boston MA,Chicago IL,2,17,435,3,0
+42418,Boston MA,Chicago IL,8,12,148,0,0
+42419,Boston MA,Chicago IL,5,5,455,0,0
+42420,Boston MA,Chicago IL,11,12,444,2,0
+42421,Boston MA,Chicago IL,4,1,303,2,0
+42422,Boston MA,Chicago IL,5,8,81,1,64
+42423,Boston MA,Chicago IL,6,12,193,0,0
+42424,Boston MA,Chicago IL,2,23,423,1,17
+42425,Boston MA,Chicago IL,1,26,-57,0,0
+42426,Boston MA,Chicago IL,11,19,-17,0,0
+42427,Boston MA,Chicago IL,6,18,188,0,0
+42428,Boston MA,Chicago IL,1,6,272,3,0
+42429,Boston MA,Chicago IL,9,22,-17,0,0
+42430,Boston MA,Chicago IL,7,31,981,0,257
+42431,Boston MA,Chicago IL,6,14,-77,1,0
+42432,Boston MA,Chicago IL,12,14,104,1,0
+42433,Boston MA,Chicago IL,7,30,183,0,0
+42434,Boston MA,Chicago IL,1,17,1084,1,0
+42435,Boston MA,Chicago IL,1,7,652,2,0
+42436,Boston MA,Chicago IL,10,8,-14,0,0
+42437,Boston MA,Chicago IL,3,21,683,4,0
+42438,Boston MA,Chicago IL,2,21,-60,0,0
+42439,Boston MA,Chicago IL,9,13,289,2,0
+42440,Boston MA,Chicago IL,11,20,118,0,0
+42441,Boston MA,Chicago IL,2,11,78,1,0
+42442,Boston MA,Chicago IL,5,1,-8,0,0
+42443,Boston MA,Chicago IL,6,7,279,0,0
+42444,Boston MA,Chicago IL,6,22,309,0,0
+42445,Boston MA,Chicago IL,11,9,24,0,0
+42446,Boston MA,Chicago IL,7,5,-64,0,0
+42447,Boston MA,Chicago IL,2,2,-25,2,0
+42448,Boston MA,Chicago IL,7,17,-38,1,0
+42449,Boston MA,Chicago IL,6,29,638,2,6
+42450,Boston MA,Chicago IL,12,19,269,6,56
+42451,Boston MA,Chicago IL,6,13,838,4,0
+42452,Boston MA,Chicago IL,2,18,386,1,0
+42453,Boston MA,Chicago IL,9,23,-115,0,0
+42454,Boston MA,Chicago IL,7,18,420,2,17
+42455,Boston MA,Chicago IL,8,25,-101,0,0
+42456,Boston MA,Chicago IL,1,25,149,1,0
+42457,Boston MA,Chicago IL,3,16,-96,0,0
+42458,Boston MA,Chicago IL,10,31,-59,0,0
+42459,Boston MA,Chicago IL,4,6,597,0,2
+42460,Boston MA,Chicago IL,4,29,170,1,15
+42461,Boston MA,Chicago IL,7,12,344,1,0
+42462,Boston MA,Chicago IL,1,21,955,1,0
+42463,Boston MA,Chicago IL,6,5,1392,1,0
+42464,Boston MA,Chicago IL,10,23,7,0,0
+42465,Boston MA,Chicago IL,6,19,257,0,0
+42466,Boston MA,Chicago IL,12,23,897,3,0
+42467,Boston MA,Chicago IL,6,17,266,1,0
+42468,Boston MA,Chicago IL,7,26,-31,2,0
+42469,Boston MA,Chicago IL,3,22,60,0,0
+42470,Boston MA,Chicago IL,1,3,175,1,0
+42471,Boston MA,Chicago IL,9,8,232,0,0
+42472,Boston MA,Chicago IL,2,27,3,0,0
+42473,Boston MA,Chicago IL,2,22,121,9,98
+42474,Boston MA,Chicago IL,10,24,-19,0,0
+42475,Boston MA,Chicago IL,12,30,-48,0,0
+42476,Boston MA,Chicago IL,7,3,91,1,0
+42477,Boston MA,Chicago IL,10,6,-70,0,0
+42478,Boston MA,Chicago IL,8,23,279,0,0
+42479,Boston MA,Chicago IL,7,23,140,4,71
+42480,Boston MA,Chicago IL,10,3,-61,0,0
+42481,Boston MA,Chicago IL,12,5,79,0,0
+42482,Boston MA,Chicago IL,6,16,625,0,0
+42483,Boston MA,Chicago IL,5,2,1703,2,0
+42484,Boston MA,Chicago IL,8,31,-64,0,0
+42485,Boston MA,Chicago IL,11,2,-36,0,0
+42486,Boston MA,Chicago IL,3,6,20,0,0
+42487,Boston MA,Chicago IL,3,17,144,1,0
+42488,Boston MA,Chicago IL,5,27,76,0,81
+42489,Boston MA,Chicago IL,3,8,295,0,0
+42490,Boston MA,Chicago IL,9,30,106,0,0
+42491,Boston MA,Chicago IL,5,24,-18,0,0
+42492,Boston MA,Chicago IL,12,21,1289,5,714
+42493,Boston MA,Chicago IL,1,20,-91,2,0
+42494,Boston MA,Chicago IL,2,15,259,1,0
+42495,Boston MA,Chicago IL,8,2,221,0,47
+42496,Boston MA,Chicago IL,8,9,29,0,0
+42497,Boston MA,Chicago IL,1,5,241,0,0
+42498,Boston MA,Chicago IL,7,28,275,2,0
+42499,Boston MA,Chicago IL,8,6,757,1,0
+42500,Boston MA,Chicago IL,1,13,22,0,0
+42501,Boston MA,Chicago IL,11,21,110,0,0
+42502,Boston MA,Chicago IL,7,29,-74,0,0
+42503,Boston MA,Chicago IL,9,1,-75,0,0
+42504,Boston MA,Chicago IL,10,16,-20,0,0
+42505,Boston MA,Chicago IL,7,9,267,1,0
+42506,Boston MA,Chicago IL,8,8,681,0,127
+42507,Boston MA,Chicago IL,5,12,153,0,0
+42508,Boston MA,Chicago IL,5,9,363,0,0
+42509,Boston MA,Chicago IL,7,27,1083,1,224
+42510,Boston MA,Chicago IL,11,23,-18,1,0
+42511,Boston MA,Chicago IL,8,28,12,1,0
+42512,Boston MA,Chicago IL,3,12,-64,1,0
+42513,Boston MA,Chicago IL,10,18,-46,0,0
+42514,Boston MA,Chicago IL,11,5,277,0,0
+42515,Boston MA,Chicago IL,5,23,70,0,0
+42516,Boston MA,Chicago IL,5,14,278,0,0
+42517,Boston MA,Chicago IL,7,10,758,2,208
+42518,Boston MA,Chicago IL,12,25,56,0,0
+42519,Boston MA,Chicago IL,9,16,219,0,0
+42520,Boston MA,Chicago IL,9,2,4,0,0
+42521,Boston MA,Chicago IL,8,5,435,3,36
+42522,Boston MA,Chicago IL,10,26,238,0,0
+42523,Boston MA,Chicago IL,11,27,-74,0,0
+42524,Boston MA,Chicago IL,6,21,120,0,0
+42525,Boston MA,Chicago IL,7,7,288,0,0
+42526,Boston MA,Chicago IL,3,23,-43,0,0
+42527,Boston MA,Chicago IL,9,5,90,0,0
+42528,Boston MA,Chicago IL,1,24,159,1,0
+42529,Boston MA,Chicago IL,8,22,228,0,0
+42530,Boston MA,Chicago IL,9,3,-31,1,0
+42531,Boston MA,Chicago IL,3,4,128,2,0
+42532,Boston MA,Chicago IL,10,12,-63,0,0
+42533,Boston MA,Chicago IL,6,24,188,2,21
+42534,Boston MA,Chicago IL,7,11,75,0,0
+42535,Boston MA,Chicago IL,3,2,105,0,0
+42536,Boston MA,Chicago IL,6,1,-81,1,0
+42537,Boston MA,Chicago IL,4,8,-75,2,0
+42538,Boston MA,Chicago IL,10,14,6,0,0
+42539,Boston MA,Chicago IL,11,15,-30,0,0
+42540,Boston MA,Chicago IL,2,5,30,3,0
+42541,Boston MA,Chicago IL,5,3,117,1,0
+42542,Boston MA,Chicago IL,10,25,-103,0,0
+42543,Boston MA,Chicago IL,12,29,91,0,0
+42544,Boston MA,Chicago IL,9,4,819,0,0
+42545,Boston MA,Chicago IL,1,9,-72,0,0
+42546,Boston MA,Chicago IL,8,24,21,0,0
+42547,Boston MA,Chicago IL,4,19,48,0,0
+42548,Boston MA,Chicago IL,4,13,3,0,0
+42549,Boston MA,Chicago IL,11,11,82,0,0
+42550,Boston MA,Chicago IL,5,22,41,0,0
+42551,Boston MA,Chicago IL,6,30,164,2,0
+42552,Boston MA,Chicago IL,6,15,479,1,0
+42553,Boston MA,Chicago IL,6,8,1395,3,0
+42554,Boston MA,Chicago IL,12,3,-9,1,0
+42555,Boston MA,Chicago IL,4,23,357,0,0
+42556,Boston MA,Chicago IL,5,11,265,3,0
+42557,Boston MA,Chicago IL,10,11,-101,0,0
+42558,Boston MA,Chicago IL,9,12,684,0,0
+42559,Boston MA,Chicago IL,5,18,-37,0,0
+42560,Boston MA,Chicago IL,1,19,42,0,0
+42561,Boston MA,Chicago IL,2,6,263,8,0
+42562,Boston MA,Chicago IL,9,10,-88,0,0
+42563,Boston MA,Chicago IL,10,9,-87,0,0
+42564,Boston MA,Chicago IL,3,19,226,0,35
+42565,Boston MA,Chicago IL,1,14,690,11,377
+42566,Boston MA,Chicago IL,12,7,-61,1,0
+42567,Boston MA,Chicago IL,3,3,295,2,0
+42568,Boston MA,Chicago IL,10,19,124,0,0
+42569,Boston MA,Chicago IL,9,18,428,2,0
+42570,Boston MA,Chicago IL,12,31,71,6,31
+42571,Boston MA,Chicago IL,7,24,1316,2,45
+42572,Boston MA,Chicago IL,4,27,6,1,0
+42573,Boston MA,Chicago IL,1,2,367,1,0
+42574,Boston MA,Chicago IL,8,29,13,0,0
+42575,Boston MA,Chicago IL,3,29,-33,1,0
+42576,Boston MA,Chicago IL,7,13,716,0,0
+42577,Boston MA,Chicago IL,7,4,40,0,0
+42578,Boston MA,Chicago IL,8,16,191,0,0
+42579,Boston MA,Chicago IL,1,11,314,0,12
+42580,Boston MA,Chicago IL,12,10,-16,1,0
+42581,Boston MA,Chicago IL,4,26,418,2,0
+42582,Boston MA,Chicago IL,7,16,145,0,0
+42583,Boston MA,Chicago IL,8,17,63,0,0
+42584,Boston MA,New York NY,5,7,-113,0,0
+42585,Boston MA,New York NY,4,4,2093,14,6
+42586,Boston MA,New York NY,4,20,481,3,0
+42587,Boston MA,New York NY,11,26,-62,0,0
+42588,Boston MA,New York NY,5,20,374,1,0
+42589,Boston MA,New York NY,2,13,1384,20,97
+42590,Boston MA,New York NY,5,5,-114,0,0
+42591,Boston MA,New York NY,8,21,103,1,0
+42592,Boston MA,New York NY,3,6,-64,0,0
+42593,Boston MA,New York NY,2,19,286,1,0
+42594,Boston MA,New York NY,11,25,770,4,111
+42595,Boston MA,New York NY,10,10,110,0,0
+42596,Boston MA,New York NY,11,18,-131,1,0
+42597,Boston MA,New York NY,1,8,-66,0,0
+42598,Boston MA,New York NY,5,28,277,2,0
+42599,Boston MA,New York NY,8,9,294,0,0
+42600,Boston MA,New York NY,4,17,-4,1,0
+42601,Boston MA,New York NY,12,28,161,0,0
+42602,Boston MA,New York NY,6,4,1096,7,55
+42603,Boston MA,New York NY,2,20,-153,0,0
+42604,Boston MA,New York NY,11,10,-69,2,38
+42605,Boston MA,New York NY,12,22,2348,12,312
+42606,Boston MA,New York NY,2,18,1580,3,0
+42607,Boston MA,New York NY,8,7,2348,8,0
+42608,Boston MA,New York NY,2,9,-27,0,0
+42609,Boston MA,New York NY,8,6,1150,9,149
+42610,Boston MA,New York NY,7,1,300,2,0
+42611,Boston MA,New York NY,10,5,424,0,0
+42612,Boston MA,New York NY,5,31,665,2,0
+42613,Boston MA,New York NY,12,20,2848,12,767
+42614,Boston MA,New York NY,7,9,1162,6,18
+42615,Boston MA,New York NY,8,19,-96,1,0
+42616,Boston MA,New York NY,11,19,-74,0,0
+42617,Boston MA,New York NY,4,24,-86,1,0
+42618,Boston MA,New York NY,6,30,755,5,0
+42619,Boston MA,New York NY,2,22,1032,33,113
+42620,Boston MA,New York NY,12,14,70,1,0
+42621,Boston MA,New York NY,8,13,355,0,0
+42622,Boston MA,New York NY,8,30,255,1,123
+42623,Boston MA,New York NY,3,27,446,8,33
+42624,Boston MA,New York NY,6,26,448,1,78
+42625,Boston MA,New York NY,1,25,-97,0,0
+42626,Boston MA,New York NY,10,20,-186,0,0
+42627,Boston MA,New York NY,12,13,-146,0,0
+42628,Boston MA,New York NY,4,15,-57,1,0
+42629,Boston MA,New York NY,11,7,740,5,176
+42630,Boston MA,New York NY,8,11,3947,24,157
+42631,Boston MA,New York NY,9,14,639,4,93
+42632,Boston MA,New York NY,6,20,-88,1,0
+42633,Boston MA,New York NY,9,28,761,1,0
+42634,Boston MA,New York NY,10,17,-49,1,0
+42635,Boston MA,New York NY,4,7,721,4,0
+42636,Boston MA,New York NY,3,29,-20,0,42
+42637,Boston MA,New York NY,10,1,171,0,25
+42638,Boston MA,New York NY,6,13,112,0,0
+42639,Boston MA,New York NY,4,27,318,0,10
+42640,Boston MA,New York NY,10,7,-10,1,0
+42641,Boston MA,New York NY,8,14,1393,12,205
+42642,Boston MA,New York NY,2,29,-46,2,0
+42643,Boston MA,New York NY,1,18,494,1,0
+42644,Boston MA,New York NY,3,14,429,0,43
+42645,Boston MA,New York NY,5,13,-115,0,0
+42646,Boston MA,New York NY,1,1,423,0,94
+42647,Boston MA,New York NY,4,30,-20,0,90
+42648,Boston MA,New York NY,9,5,257,2,15
+42649,Boston MA,New York NY,7,21,905,7,40
+42650,Boston MA,New York NY,11,22,171,0,0
+42651,Boston MA,New York NY,8,2,1558,13,214
+42652,Boston MA,New York NY,11,30,1485,6,0
+42653,Boston MA,New York NY,10,13,-48,2,0
+42654,Boston MA,New York NY,10,15,-161,0,0
+42655,Boston MA,New York NY,10,19,201,1,0
+42656,Boston MA,New York NY,10,24,75,0,0
+42657,Boston MA,New York NY,2,16,-22,0,49
+42658,Boston MA,New York NY,8,16,517,2,19
+42659,Boston MA,New York NY,5,18,113,0,191
+42660,Boston MA,New York NY,3,5,528,4,0
+42661,Boston MA,New York NY,9,8,-3,1,0
+42662,Boston MA,New York NY,7,11,308,0,0
+42663,Boston MA,New York NY,1,20,-142,0,26
+42664,Boston MA,New York NY,6,22,2036,9,120
+42665,Boston MA,New York NY,7,30,400,3,0
+42666,Boston MA,New York NY,8,29,510,0,0
+42667,Boston MA,New York NY,12,29,52,0,0
+42668,Boston MA,New York NY,11,23,-158,1,0
+42669,Boston MA,New York NY,5,29,-41,0,17
+42670,Boston MA,New York NY,10,12,37,0,0
+42671,Boston MA,New York NY,6,14,1037,6,0
+42672,Boston MA,New York NY,6,29,623,6,130
+42673,Boston MA,New York NY,11,6,1197,9,145
+42674,Boston MA,New York NY,5,19,254,0,0
+42675,Boston MA,New York NY,9,21,45,0,0
+42676,Boston MA,New York NY,3,19,1717,13,5
+42677,Boston MA,New York NY,5,1,7,0,0
+42678,Boston MA,New York NY,9,16,-210,1,0
+42679,Boston MA,New York NY,11,13,978,2,104
+42680,Boston MA,New York NY,9,24,-35,1,19
+42681,Boston MA,New York NY,11,4,-192,3,0
+42682,Boston MA,New York NY,3,31,720,8,0
+42683,Boston MA,New York NY,2,8,1280,2,2
+42684,Boston MA,New York NY,11,9,-157,2,28
+42685,Boston MA,New York NY,9,26,1718,17,458
+42686,Boston MA,New York NY,3,8,1518,13,11
+42687,Boston MA,New York NY,3,17,151,3,0
+42688,Boston MA,New York NY,12,25,307,1,0
+42689,Boston MA,New York NY,5,3,-18,0,0
+42690,Boston MA,New York NY,12,6,-51,0,0
+42691,Boston MA,New York NY,9,27,885,3,36
+42692,Boston MA,New York NY,5,16,619,1,101
+42693,Boston MA,New York NY,6,8,1228,4,160
+42694,Boston MA,New York NY,5,14,60,1,0
+42695,Boston MA,New York NY,4,14,113,1,106
+42696,Boston MA,New York NY,10,26,67,2,0
+42697,Boston MA,New York NY,4,8,16,0,0
+42698,Boston MA,New York NY,1,9,-16,1,0
+42699,Boston MA,New York NY,3,28,1220,3,0
+42700,Boston MA,New York NY,5,30,-178,0,0
+42701,Boston MA,New York NY,9,12,789,2,21
+42702,Boston MA,New York NY,6,25,-94,0,0
+42703,Boston MA,New York NY,1,23,111,1,0
+42704,Boston MA,New York NY,4,25,-44,3,0
+42705,Boston MA,New York NY,3,11,-44,1,0
+42706,Boston MA,New York NY,7,17,1147,3,0
+42707,Boston MA,New York NY,10,27,-54,2,0
+42708,Boston MA,New York NY,10,18,-45,0,0
+42709,Boston MA,New York NY,3,26,15,0,0
+42710,Boston MA,New York NY,8,4,390,2,0
+42711,Boston MA,New York NY,7,22,891,6,101
+42712,Boston MA,New York NY,5,27,1993,14,583
+42713,Boston MA,New York NY,4,11,702,5,0
+42714,Boston MA,New York NY,7,5,-85,3,0
+42715,Boston MA,New York NY,1,3,263,2,120
+42716,Boston MA,New York NY,2,12,896,9,56
+42717,Boston MA,New York NY,10,29,-243,1,0
+42718,Boston MA,New York NY,8,8,2265,13,5
+42719,Boston MA,New York NY,1,27,721,1,47
+42720,Boston MA,New York NY,4,5,489,0,0
+42721,Boston MA,New York NY,2,26,719,3,0
+42722,Boston MA,New York NY,3,7,1214,6,101
+42723,Boston MA,New York NY,5,10,-85,0,17
+42724,Boston MA,New York NY,3,13,111,1,0
+42725,Boston MA,New York NY,9,23,-184,1,0
+42726,Boston MA,New York NY,12,31,489,9,140
+42727,Boston MA,New York NY,5,22,492,0,45
+42728,Boston MA,New York NY,11,21,73,0,0
+42729,Boston MA,New York NY,7,8,840,7,0
+42730,Boston MA,New York NY,10,9,-110,1,0
+42731,Boston MA,New York NY,7,20,1258,11,266
+42732,Boston MA,New York NY,5,15,96,1,0
+42733,Boston MA,New York NY,11,29,19,1,0
+42734,Boston MA,New York NY,8,20,54,1,0
+42735,Boston MA,New York NY,1,6,441,2,0
+42736,Boston MA,New York NY,12,15,528,3,0
+42737,Boston MA,New York NY,10,22,177,2,0
+42738,Boston MA,New York NY,7,19,777,1,0
+42739,Boston MA,New York NY,7,31,837,2,0
+42740,Boston MA,New York NY,2,25,-20,1,0
+42741,Boston MA,New York NY,12,19,815,30,511
+42742,Boston MA,New York NY,12,3,-141,1,0
+42743,Boston MA,New York NY,9,29,113,2,0
+42744,Boston MA,New York NY,9,2,191,1,0
+42745,Boston MA,New York NY,11,28,-49,0,0
+42746,Boston MA,New York NY,4,10,522,0,332
+42747,Boston MA,New York NY,10,28,582,11,83
+42748,Boston MA,New York NY,12,11,800,10,40
+42749,Boston MA,New York NY,10,30,65,0,0
+42750,Boston MA,New York NY,4,9,114,3,0
+42751,Boston MA,New York NY,2,28,217,4,31
+42752,Boston MA,New York NY,7,2,1247,8,274
+42753,Boston MA,New York NY,7,28,1105,4,0
+42754,Boston MA,New York NY,12,30,213,0,45
+42755,Boston MA,New York NY,1,7,-122,3,0
+42756,Boston MA,New York NY,12,4,-54,0,0
+42757,Boston MA,New York NY,4,3,183,2,0
+42758,Boston MA,New York NY,10,31,-53,0,0
+42759,Boston MA,New York NY,11,16,36,1,55
+42760,Boston MA,New York NY,7,12,471,0,0
+42761,Boston MA,New York NY,5,26,220,0,0
+42762,Boston MA,New York NY,12,2,83,0,0
+42763,Boston MA,New York NY,6,17,202,2,0
+42764,Boston MA,New York NY,10,11,-88,0,0
+42765,Boston MA,New York NY,11,11,255,0,0
+42766,Boston MA,New York NY,9,13,-57,0,0
+42767,Boston MA,New York NY,6,16,1551,13,22
+42768,Boston MA,New York NY,5,4,891,1,101
+42769,Boston MA,New York NY,8,17,190,0,0
+42770,Boston MA,New York NY,5,2,753,2,25
+42771,Boston MA,New York NY,9,19,418,4,0
+42772,Boston MA,New York NY,8,15,1331,18,0
+42773,Boston MA,New York NY,3,21,644,1,44
+42774,Boston MA,New York NY,5,21,-8,1,0
+42775,Boston MA,New York NY,12,24,911,2,0
+42776,Boston MA,New York NY,6,19,229,4,0
+42777,Boston MA,New York NY,12,5,-239,0,0
+42778,Boston MA,New York NY,3,4,430,7,0
+42779,Boston MA,New York NY,8,5,360,1,0
+42780,Boston MA,New York NY,8,3,882,3,162
+42781,Boston MA,New York NY,4,22,115,2,0
+42782,Boston MA,New York NY,2,4,479,3,45
+42783,Boston MA,New York NY,3,30,-43,0,0
+42784,Boston MA,New York NY,4,6,1289,2,0
+42785,Boston MA,New York NY,2,21,90,2,0
+42786,Boston MA,New York NY,3,15,448,1,0
+42787,Boston MA,New York NY,1,13,35,2,0
+42788,Boston MA,New York NY,12,8,59,3,0
+42789,Boston MA,New York NY,4,28,925,16,41
+42790,Boston MA,New York NY,3,2,-29,0,0
+42791,Boston MA,New York NY,8,24,449,0,0
+42792,Boston MA,New York NY,12,9,117,0,22
+42793,Boston MA,New York NY,12,18,11,0,0
+42794,Boston MA,New York NY,4,12,544,4,20
+42795,Boston MA,New York NY,7,14,474,3,0
+42796,Boston MA,New York NY,5,25,-84,0,0
+42797,Boston MA,New York NY,5,24,-85,0,0
+42798,Boston MA,New York NY,1,10,-39,0,0
+42799,Boston MA,New York NY,5,23,398,2,45
+42800,Boston MA,New York NY,12,23,1141,3,0
+42801,Boston MA,New York NY,11,3,-184,0,0
+42802,Boston MA,New York NY,10,8,-106,2,0
+42803,Boston MA,New York NY,2,17,-22,0,0
+42804,Boston MA,New York NY,10,23,16,1,0
+42805,Boston MA,New York NY,10,14,-122,1,0
+42806,Boston MA,New York NY,10,3,-4,2,0
+42807,Boston MA,New York NY,9,18,228,1,0
+42808,Boston MA,New York NY,8,10,1194,14,66
+42809,Boston MA,New York NY,4,29,924,6,91
+42810,Boston MA,New York NY,8,26,504,2,0
+42811,Boston MA,New York NY,4,2,-107,0,0
+42812,Boston MA,New York NY,2,7,518,2,40
+42813,Boston MA,New York NY,1,26,-61,0,0
+42814,Boston MA,New York NY,1,12,-117,1,0
+42815,Boston MA,New York NY,8,28,361,1,0
+42816,Boston MA,New York NY,3,20,1019,10,10
+42817,Boston MA,New York NY,6,28,301,3,0
+42818,Boston MA,New York NY,9,6,775,6,0
+42819,Boston MA,New York NY,5,8,310,2,140
+42820,Boston MA,New York NY,12,7,480,1,73
+42821,Boston MA,New York NY,5,17,-66,0,0
+42822,Boston MA,New York NY,12,1,1070,2,40
+42823,Boston MA,New York NY,3,23,58,0,0
+42824,Boston MA,New York NY,6,23,1759,17,154
+42825,Boston MA,New York NY,8,25,98,0,0
+42826,Boston MA,New York NY,1,31,-152,0,0
+42827,Boston MA,New York NY,7,23,2154,22,41
+42828,Boston MA,New York NY,7,10,162,2,0
+42829,Boston MA,New York NY,5,12,715,7,0
+42830,Boston MA,New York NY,9,20,-64,1,0
+42831,Boston MA,New York NY,11,12,27,0,0
+42832,Boston MA,New York NY,4,1,733,6,0
+42833,Boston MA,New York NY,2,3,-148,0,0
+42834,Boston MA,New York NY,2,15,306,2,0
+42835,Boston MA,New York NY,11,20,35,3,10
+42836,Boston MA,New York NY,2,24,265,1,0
+42837,Boston MA,New York NY,6,11,147,3,0
+42838,Boston MA,New York NY,6,9,358,2,0
+42839,Boston MA,New York NY,1,5,71,4,0
+42840,Boston MA,New York NY,5,6,-49,2,0
+42841,Boston MA,New York NY,4,19,4,1,0
+42842,Boston MA,New York NY,7,6,715,2,0
+42843,Boston MA,New York NY,12,27,574,2,40
+42844,Boston MA,New York NY,10,25,1388,8,0
+42845,Boston MA,New York NY,1,16,-62,2,0
+42846,Boston MA,New York NY,6,7,30,1,0
+42847,Boston MA,New York NY,1,30,135,7,0
+42848,Boston MA,New York NY,12,16,156,1,0
+42849,Boston MA,New York NY,4,18,26,0,0
+42850,Boston MA,New York NY,7,27,3884,20,588
+42851,Boston MA,New York NY,12,12,392,7,100
+42852,Boston MA,New York NY,2,5,575,4,15
+42853,Boston MA,New York NY,1,4,-57,0,0
+42854,Boston MA,New York NY,7,3,277,4,0
+42855,Boston MA,New York NY,3,24,129,2,0
+42856,Boston MA,New York NY,9,3,-112,0,0
+42857,Boston MA,New York NY,8,18,494,3,0
+42858,Boston MA,New York NY,11,14,1738,9,381
+42859,Boston MA,New York NY,12,10,481,5,20
+42860,Boston MA,New York NY,9,4,292,0,0
+42861,Boston MA,New York NY,7,16,375,1,0
+42862,Boston MA,New York NY,12,26,145,2,0
+42863,Boston MA,New York NY,6,10,132,6,26
+42864,Boston MA,New York NY,11,24,30,0,17
+42865,Boston MA,New York NY,6,5,1500,7,173
+42866,Boston MA,New York NY,8,1,930,3,0
+42867,Boston MA,New York NY,7,26,430,0,0
+42868,Boston MA,New York NY,4,13,-46,0,0
+42869,Boston MA,New York NY,7,13,602,6,0
+42870,Boston MA,New York NY,1,21,197,0,38
+42871,Boston MA,New York NY,1,29,-103,0,0
+42872,Boston MA,New York NY,9,17,-259,1,0
+42873,Boston MA,New York NY,7,25,441,0,0
+42874,Boston MA,New York NY,9,25,258,3,15
+42875,Boston MA,New York NY,3,18,6,2,0
+42876,Boston MA,New York NY,8,22,378,0,0
+42877,Boston MA,New York NY,2,10,739,2,128
+42878,Boston MA,New York NY,3,25,-148,0,0
+42879,Boston MA,New York NY,7,7,445,9,0
+42880,Boston MA,New York NY,2,23,415,3,0
+42881,Boston MA,New York NY,1,19,-52,1,0
+42882,Boston MA,New York NY,8,31,370,0,0
+42883,Boston MA,New York NY,3,12,343,2,0
+42884,Boston MA,New York NY,11,17,-141,0,0
+42885,Boston MA,New York NY,9,22,186,2,0
+42886,Boston MA,New York NY,10,21,-120,3,0
+42887,Boston MA,New York NY,9,10,68,0,0
+42888,Boston MA,New York NY,10,4,289,0,0
+42889,Boston MA,New York NY,1,24,-95,1,0
+42890,Boston MA,New York NY,9,11,43,0,0
+42891,Boston MA,New York NY,9,7,-21,1,0
+42892,Boston MA,New York NY,2,11,335,4,0
+42893,Boston MA,New York NY,6,3,-75,0,23
+42894,Boston MA,New York NY,1,11,2042,17,234
+42895,Boston MA,New York NY,2,1,1405,11,0
+42896,Boston MA,New York NY,7,29,586,0,0
+42897,Boston MA,New York NY,1,14,535,31,234
+42898,Boston MA,New York NY,7,18,659,3,0
+42899,Boston MA,New York NY,6,12,92,0,0
+42900,Boston MA,New York NY,1,15,50,0,0
+42901,Boston MA,New York NY,2,6,244,4,0
+42902,Boston MA,New York NY,9,15,105,2,0
+42903,Boston MA,New York NY,2,14,449,1,0
+42904,Boston MA,New York NY,3,9,734,3,0
+42905,Boston MA,New York NY,2,27,54,3,0
+42906,Boston MA,New York NY,5,9,781,6,0
+42907,Boston MA,New York NY,7,15,537,1,0
+42908,Boston MA,New York NY,4,21,390,2,34
+42909,Boston MA,New York NY,7,24,2276,13,227
+42910,Boston MA,New York NY,3,22,12,0,0
+42911,Boston MA,New York NY,6,24,1132,7,73
+42912,Boston MA,New York NY,11,8,790,2,0
+42913,Boston MA,New York NY,6,6,1015,8,23
+42914,Boston MA,New York NY,6,15,905,4,0
+42915,Boston MA,New York NY,11,27,-92,0,0
+42916,Boston MA,New York NY,3,16,403,0,0
+42917,Boston MA,New York NY,9,9,1655,13,150
+42918,Boston MA,New York NY,11,15,1272,4,29
+42919,Boston MA,New York NY,6,2,-21,2,0
+42920,Boston MA,New York NY,1,2,500,1,207
+42921,Boston MA,New York NY,9,1,140,0,15
+42922,Boston MA,New York NY,2,2,-90,1,31
+42923,Boston MA,New York NY,1,22,566,3,53
+42924,Boston MA,New York NY,6,1,304,0,0
+42925,Boston MA,New York NY,4,16,180,0,0
+42926,Boston MA,New York NY,3,10,-55,1,0
+42927,Boston MA,New York NY,6,18,1379,4,729
+42928,Boston MA,New York NY,11,5,208,5,0
+42929,Boston MA,New York NY,12,21,1092,31,191
+42930,Boston MA,New York NY,1,28,-77,0,19
+42931,Boston MA,New York NY,7,4,-194,1,0
+42932,Boston MA,New York NY,4,23,-127,1,10
+42933,Boston MA,New York NY,5,11,8,0,0
+42934,Boston MA,New York NY,11,1,-118,0,0
+42935,Boston MA,New York NY,6,27,895,7,115
+42936,Boston MA,New York NY,1,17,91,1,0
+42937,Boston MA,New York NY,8,27,140,1,0
+42938,Boston MA,New York NY,3,1,540,2,0
+42939,Boston MA,New York NY,10,16,350,3,0
+42940,Boston MA,New York NY,6,21,41,0,0
+42941,Boston MA,New York NY,12,17,802,5,0
+42942,Boston MA,New York NY,9,30,-108,0,0
+42943,Boston MA,New York NY,4,26,-94,0,0
+42944,Boston MA,New York NY,11,2,17,1,0
+42945,Boston MA,New York NY,8,23,163,1,0
+42946,Boston MA,New York NY,3,3,114,3,0
+42947,Boston MA,New York NY,8,12,899,3,0
+42948,Boston MA,New York NY,10,6,-49,2,0
+42949,Boston MA,New York NY,10,2,-163,0,0
+42950,Boston MA,Philadelphia PA,8,20,-86,0,0
+42951,Boston MA,Philadelphia PA,10,4,-39,0,0
+42952,Boston MA,Philadelphia PA,12,14,524,3,0
+42953,Boston MA,Philadelphia PA,6,27,383,3,0
+42954,Boston MA,Philadelphia PA,8,30,-9,0,0
+42955,Boston MA,Philadelphia PA,1,3,140,1,0
+42956,Boston MA,Philadelphia PA,10,27,-120,0,0
+42957,Boston MA,Philadelphia PA,3,25,-39,1,0
+42958,Boston MA,Philadelphia PA,11,20,-76,3,0
+42959,Boston MA,Philadelphia PA,7,16,-83,1,0
+42960,Boston MA,Philadelphia PA,12,21,282,7,0
+42961,Boston MA,Philadelphia PA,5,13,-74,2,0
+42962,Boston MA,Philadelphia PA,2,25,25,0,59
+42963,Boston MA,Philadelphia PA,10,14,-108,0,0
+42964,Boston MA,Philadelphia PA,2,9,-13,0,0
+42965,Boston MA,Philadelphia PA,10,28,1237,4,67
+42966,Boston MA,Philadelphia PA,6,14,120,0,0
+42967,Boston MA,Philadelphia PA,11,5,9,0,95
+42968,Boston MA,Philadelphia PA,8,23,-14,0,0
+42969,Boston MA,Philadelphia PA,2,29,290,2,0
+42970,Boston MA,Philadelphia PA,2,16,11,0,0
+42971,Boston MA,Philadelphia PA,5,7,-24,2,0
+42972,Boston MA,Philadelphia PA,7,5,-35,0,0
+42973,Boston MA,Philadelphia PA,6,13,-67,2,0
+42974,Boston MA,Philadelphia PA,11,12,-114,1,0
+42975,Boston MA,Philadelphia PA,12,18,-38,0,0
+42976,Boston MA,Philadelphia PA,1,30,226,1,50
+42977,Boston MA,Philadelphia PA,6,4,921,3,531
+42978,Boston MA,Philadelphia PA,5,12,1057,6,18
+42979,Boston MA,Philadelphia PA,5,4,220,0,75
+42980,Boston MA,Philadelphia PA,2,13,312,8,25
+42981,Boston MA,Philadelphia PA,1,18,25,0,0
+42982,Boston MA,Philadelphia PA,8,26,-42,0,0
+42983,Boston MA,Philadelphia PA,9,19,423,0,0
+42984,Boston MA,Philadelphia PA,7,22,-63,5,0
+42985,Boston MA,Philadelphia PA,8,22,-111,0,0
+42986,Boston MA,Philadelphia PA,6,15,165,1,0
+42987,Boston MA,Philadelphia PA,12,1,159,2,26
+42988,Boston MA,Philadelphia PA,6,25,149,1,0
+42989,Boston MA,Philadelphia PA,2,8,129,1,85
+42990,Boston MA,Philadelphia PA,12,30,-54,1,0
+42991,Boston MA,Philadelphia PA,8,29,5,1,0
+42992,Boston MA,Philadelphia PA,11,6,948,6,0
+42993,Boston MA,Philadelphia PA,11,21,289,3,20
+42994,Boston MA,Philadelphia PA,4,12,-16,0,0
+42995,Boston MA,Philadelphia PA,4,9,34,1,5
+42996,Boston MA,Philadelphia PA,9,10,-96,1,0
+42997,Boston MA,Philadelphia PA,5,27,224,2,106
+42998,Boston MA,Philadelphia PA,12,8,-104,0,0
+42999,Boston MA,Philadelphia PA,2,14,80,0,0
+43000,Boston MA,Philadelphia PA,2,10,-11,0,0
+43001,Boston MA,Philadelphia PA,10,5,171,0,107
+43002,Boston MA,Philadelphia PA,10,10,-101,0,0
+43003,Boston MA,Philadelphia PA,9,4,28,1,0
+43004,Boston MA,Philadelphia PA,3,19,624,8,63
+43005,Boston MA,Philadelphia PA,6,21,8,0,30
+43006,Boston MA,Philadelphia PA,2,12,422,3,74
+43007,Boston MA,Philadelphia PA,7,30,-31,0,0
+43008,Boston MA,Philadelphia PA,6,22,-43,1,0
+43009,Boston MA,Philadelphia PA,5,24,-26,0,0
+43010,Boston MA,Philadelphia PA,1,29,-83,0,0
+43011,Boston MA,Philadelphia PA,11,27,-40,0,0
+43012,Boston MA,Philadelphia PA,4,21,328,0,0
+43013,Boston MA,Philadelphia PA,2,1,620,6,0
+43014,Boston MA,Philadelphia PA,9,23,7,0,0
+43015,Boston MA,Philadelphia PA,2,22,454,9,165
+43016,Boston MA,Philadelphia PA,5,31,0,0,0
+43017,Boston MA,Philadelphia PA,11,24,-84,2,0
+43018,Boston MA,Philadelphia PA,3,17,51,0,0
+43019,Boston MA,Philadelphia PA,3,6,-15,0,0
+43020,Boston MA,Philadelphia PA,4,23,4,1,0
+43021,Boston MA,Philadelphia PA,4,4,754,3,370
+43022,Boston MA,Philadelphia PA,9,21,-39,0,0
+43023,Boston MA,Philadelphia PA,5,16,867,5,173
+43024,Boston MA,Philadelphia PA,4,22,-49,1,0
+43025,Boston MA,Philadelphia PA,6,11,28,1,0
+43026,Boston MA,Philadelphia PA,10,8,141,0,0
+43027,Boston MA,Philadelphia PA,10,16,123,1,0
+43028,Boston MA,Philadelphia PA,11,3,-116,0,0
+43029,Boston MA,Philadelphia PA,3,7,231,0,40
+43030,Boston MA,Philadelphia PA,7,2,423,2,233
+43031,Boston MA,Philadelphia PA,8,6,199,1,35
+43032,Boston MA,Philadelphia PA,3,12,115,0,0
+43033,Boston MA,Philadelphia PA,12,4,-126,1,0
+43034,Boston MA,Philadelphia PA,10,12,92,0,0
+43035,Boston MA,Philadelphia PA,2,3,-7,0,0
+43036,Boston MA,Philadelphia PA,5,5,-11,1,0
+43037,Boston MA,Philadelphia PA,1,6,108,0,0
+43038,Boston MA,Philadelphia PA,7,21,235,1,44
+43039,Boston MA,Philadelphia PA,6,12,-13,0,0
+43040,Boston MA,Philadelphia PA,12,2,-120,0,0
+43041,Boston MA,Philadelphia PA,12,9,-163,0,0
+43042,Boston MA,Philadelphia PA,3,3,53,2,0
+43043,Boston MA,Philadelphia PA,1,8,112,1,0
+43044,Boston MA,Philadelphia PA,9,30,56,2,0
+43045,Boston MA,Philadelphia PA,9,28,342,0,0
+43046,Boston MA,Philadelphia PA,4,17,-60,0,0
+43047,Boston MA,Philadelphia PA,10,23,-7,0,0
+43048,Boston MA,Philadelphia PA,2,11,32,2,0
+43049,Boston MA,Philadelphia PA,7,28,415,3,0
+43050,Boston MA,Philadelphia PA,4,20,138,0,0
+43051,Boston MA,Philadelphia PA,7,25,622,1,106
+43052,Boston MA,Philadelphia PA,6,9,9,0,0
+43053,Boston MA,Philadelphia PA,7,29,64,2,0
+43054,Boston MA,Philadelphia PA,7,26,4,0,0
+43055,Boston MA,Philadelphia PA,11,2,-58,0,0
+43056,Boston MA,Philadelphia PA,6,6,820,1,0
+43057,Boston MA,Philadelphia PA,5,9,609,5,70
+43058,Boston MA,Philadelphia PA,11,16,158,1,45
+43059,Boston MA,Philadelphia PA,1,24,43,0,0
+43060,Boston MA,Philadelphia PA,12,16,364,1,0
+43061,Boston MA,Philadelphia PA,12,24,-8,0,0
+43062,Boston MA,Philadelphia PA,4,19,-8,0,0
+43063,Boston MA,Philadelphia PA,1,23,96,3,0
+43064,Boston MA,Philadelphia PA,12,11,1058,6,65
+43065,Boston MA,Philadelphia PA,1,15,373,0,0
+43066,Boston MA,Philadelphia PA,4,2,55,1,0
+43067,Boston MA,Philadelphia PA,1,26,-26,0,0
+43068,Boston MA,Philadelphia PA,9,15,-88,0,0
+43069,Boston MA,Philadelphia PA,2,2,-12,0,0
+43070,Boston MA,Philadelphia PA,5,11,-50,0,0
+43071,Boston MA,Philadelphia PA,6,23,422,2,56
+43072,Boston MA,Philadelphia PA,7,12,177,0,0
+43073,Boston MA,Philadelphia PA,2,24,-60,0,0
+43074,Boston MA,Philadelphia PA,7,27,946,3,0
+43075,Boston MA,Philadelphia PA,8,15,491,3,80
+43076,Boston MA,Philadelphia PA,11,4,-142,2,0
+43077,Boston MA,Philadelphia PA,9,26,1065,3,36
+43078,Boston MA,Philadelphia PA,4,29,389,1,94
+43079,Boston MA,Philadelphia PA,10,22,-44,0,0
+43080,Boston MA,Philadelphia PA,5,23,-41,1,0
+43081,Boston MA,Philadelphia PA,3,27,-66,0,30
+43082,Boston MA,Philadelphia PA,7,15,-65,2,0
+43083,Boston MA,Philadelphia PA,5,26,-103,0,0
+43084,Boston MA,Philadelphia PA,1,14,197,9,78
+43085,Boston MA,Philadelphia PA,1,17,266,1,100
+43086,Boston MA,Philadelphia PA,1,25,17,2,0
+43087,Boston MA,Philadelphia PA,8,24,-41,0,0
+43088,Boston MA,Philadelphia PA,11,23,-19,0,0
+43089,Boston MA,Philadelphia PA,11,1,-36,0,0
+43090,Boston MA,Philadelphia PA,10,15,109,0,0
+43091,Boston MA,Philadelphia PA,3,29,15,0,0
+43092,Boston MA,Philadelphia PA,6,17,115,1,65
+43093,Boston MA,Philadelphia PA,1,7,-95,0,0
+43094,Boston MA,Philadelphia PA,4,10,258,2,0
+43095,Boston MA,Philadelphia PA,1,19,-20,0,0
+43096,Boston MA,Philadelphia PA,1,21,86,1,0
+43097,Boston MA,Philadelphia PA,9,20,22,0,0
+43098,Boston MA,Philadelphia PA,5,3,-25,0,0
+43099,Boston MA,Philadelphia PA,4,26,28,0,0
+43100,Boston MA,Philadelphia PA,10,13,98,0,0
+43101,Boston MA,Philadelphia PA,4,5,182,0,0
+43102,Boston MA,Philadelphia PA,6,2,-13,1,0
+43103,Boston MA,Philadelphia PA,4,11,48,0,8
+43104,Boston MA,Philadelphia PA,10,3,-42,0,0
+43105,Boston MA,Philadelphia PA,7,9,589,1,411
+43106,Boston MA,Philadelphia PA,9,16,-125,0,0
+43107,Boston MA,Philadelphia PA,6,29,320,3,150
+43108,Boston MA,Philadelphia PA,7,19,-16,0,20
+43109,Boston MA,Philadelphia PA,3,18,13,1,0
+43110,Boston MA,Philadelphia PA,9,22,75,0,0
+43111,Boston MA,Philadelphia PA,8,27,25,0,0
+43112,Boston MA,Philadelphia PA,6,3,152,0,0
+43113,Boston MA,Philadelphia PA,6,18,-20,1,4
+43114,Boston MA,Philadelphia PA,10,2,-75,2,10
+43115,Boston MA,Philadelphia PA,3,16,158,0,0
+43116,Boston MA,Philadelphia PA,8,8,376,1,150
+43117,Boston MA,Philadelphia PA,11,22,-35,0,0
+43118,Boston MA,Philadelphia PA,8,11,811,4,210
+43119,Boston MA,Philadelphia PA,8,9,273,0,0
+43120,Boston MA,Philadelphia PA,3,23,-58,0,0
+43121,Boston MA,Philadelphia PA,10,21,-106,0,0
+43122,Boston MA,Philadelphia PA,2,19,-43,0,0
+43123,Boston MA,Philadelphia PA,9,24,99,0,25
+43124,Boston MA,Philadelphia PA,6,30,112,0,0
+43125,Boston MA,Philadelphia PA,10,19,2,0,0
+43126,Boston MA,Philadelphia PA,5,20,787,4,0
+43127,Boston MA,Philadelphia PA,10,30,-111,0,0
+43128,Boston MA,Philadelphia PA,8,31,-48,0,0
+43129,Boston MA,Philadelphia PA,12,12,-30,6,20
+43130,Boston MA,Philadelphia PA,12,6,-52,0,0
+43131,Boston MA,Philadelphia PA,5,14,-120,0,0
+43132,Boston MA,Philadelphia PA,1,10,-76,0,0
+43133,Boston MA,Philadelphia PA,3,11,-91,0,0
+43134,Boston MA,Philadelphia PA,4,28,817,3,0
+43135,Boston MA,Philadelphia PA,9,7,-7,0,0
+43136,Boston MA,Philadelphia PA,9,3,-96,1,0
+43137,Boston MA,Philadelphia PA,2,6,59,0,0
+43138,Boston MA,Philadelphia PA,9,17,-120,1,0
+43139,Boston MA,Philadelphia PA,3,9,236,0,0
+43140,Boston MA,Philadelphia PA,4,15,-98,2,0
+43141,Boston MA,Philadelphia PA,11,29,-45,0,0
+43142,Boston MA,Philadelphia PA,9,14,91,1,0
+43143,Boston MA,Philadelphia PA,12,19,43,5,6
+43144,Boston MA,Philadelphia PA,8,2,111,1,40
+43145,Boston MA,Philadelphia PA,10,24,-36,1,0
+43146,Boston MA,Philadelphia PA,3,14,34,1,0
+43147,Boston MA,Philadelphia PA,10,9,-5,0,0
+43148,Boston MA,Philadelphia PA,7,13,20,2,0
+43149,Boston MA,Philadelphia PA,6,7,-24,1,0
+43150,Boston MA,Philadelphia PA,3,13,121,1,0
+43151,Boston MA,Philadelphia PA,3,31,321,1,17
+43152,Boston MA,Philadelphia PA,2,18,560,1,0
+43153,Boston MA,Philadelphia PA,3,5,399,1,0
+43154,Boston MA,Philadelphia PA,7,6,296,0,80
+43155,Boston MA,Philadelphia PA,5,6,-120,1,0
+43156,Boston MA,Philadelphia PA,10,20,-119,0,0
+43157,Boston MA,Philadelphia PA,2,5,580,5,95
+43158,Boston MA,Philadelphia PA,8,13,-83,0,0
+43159,Boston MA,Philadelphia PA,6,28,248,1,0
+43160,Boston MA,Philadelphia PA,2,7,205,1,0
+43161,Boston MA,Philadelphia PA,11,28,-126,0,0
+43162,Boston MA,Philadelphia PA,11,8,24,0,0
+43163,Boston MA,Philadelphia PA,1,28,-14,0,0
+43164,Boston MA,Philadelphia PA,10,18,-7,0,0
+43165,Boston MA,Philadelphia PA,3,4,40,3,18
+43166,Boston MA,Philadelphia PA,2,28,20,0,5
+43167,Boston MA,Philadelphia PA,10,26,-11,0,0
+43168,Boston MA,Philadelphia PA,12,29,-55,1,0
+43169,Boston MA,Philadelphia PA,1,22,329,0,0
+43170,Boston MA,Philadelphia PA,4,1,714,6,622
+43171,Boston MA,Philadelphia PA,5,19,142,0,0
+43172,Boston MA,Philadelphia PA,11,19,-102,3,0
+43173,Boston MA,Philadelphia PA,9,27,82,0,0
+43174,Boston MA,Philadelphia PA,10,11,94,0,0
+43175,Boston MA,Philadelphia PA,3,21,166,1,22
+43176,Boston MA,Philadelphia PA,9,9,354,9,81
+43177,Boston MA,Philadelphia PA,7,18,155,0,0
+43178,Boston MA,Philadelphia PA,6,26,18,0,14
+43179,Boston MA,Philadelphia PA,10,7,-118,0,0
+43180,Boston MA,Philadelphia PA,8,4,-62,0,0
+43181,Boston MA,Philadelphia PA,5,15,-52,1,0
+43182,Boston MA,Philadelphia PA,9,25,207,1,0
+43183,Boston MA,Philadelphia PA,9,1,-7,0,0
+43184,Boston MA,Philadelphia PA,9,5,-22,0,0
+43185,Boston MA,Philadelphia PA,6,5,850,2,339
+43186,Boston MA,Philadelphia PA,11,11,-68,1,0
+43187,Boston MA,Philadelphia PA,7,20,319,0,75
+43188,Boston MA,Philadelphia PA,7,14,-17,2,0
+43189,Boston MA,Philadelphia PA,4,14,-42,3,0
+43190,Boston MA,Philadelphia PA,9,11,130,0,0
+43191,Boston MA,Philadelphia PA,8,10,849,5,0
+43192,Boston MA,Philadelphia PA,2,20,363,1,11
+43193,Boston MA,Philadelphia PA,1,12,-25,0,0
+43194,Boston MA,Philadelphia PA,7,11,-115,0,0
+43195,Boston MA,Philadelphia PA,10,17,-62,0,0
+43196,Boston MA,Philadelphia PA,4,30,-72,1,0
+43197,Boston MA,Philadelphia PA,1,13,33,0,0
+43198,Boston MA,Philadelphia PA,12,13,-25,0,0
+43199,Boston MA,Philadelphia PA,11,18,-129,0,0
+43200,Boston MA,Philadelphia PA,12,7,-11,0,0
+43201,Boston MA,Philadelphia PA,12,10,761,6,0
+43202,Boston MA,Philadelphia PA,1,16,-96,1,0
+43203,Boston MA,Philadelphia PA,7,7,458,1,30
+43204,Boston MA,Philadelphia PA,3,28,156,1,0
+43205,Boston MA,Philadelphia PA,11,17,-145,1,0
+43206,Boston MA,Philadelphia PA,2,21,-28,1,0
+43207,Boston MA,Philadelphia PA,1,9,43,0,0
+43208,Boston MA,Philadelphia PA,5,17,-12,0,0
+43209,Boston MA,Philadelphia PA,3,30,-34,0,0
+43210,Boston MA,Philadelphia PA,12,25,-53,0,0
+43211,Boston MA,Philadelphia PA,9,18,98,1,0
+43212,Boston MA,Philadelphia PA,8,17,53,0,0
+43213,Boston MA,Philadelphia PA,2,15,81,1,0
+43214,Boston MA,Philadelphia PA,4,7,13,2,30
+43215,Boston MA,Philadelphia PA,12,5,-71,0,0
+43216,Boston MA,Philadelphia PA,9,29,157,1,0
+43217,Boston MA,Philadelphia PA,4,8,54,0,15
+43218,Boston MA,Philadelphia PA,4,16,-89,0,0
+43219,Boston MA,Philadelphia PA,4,3,56,0,0
+43220,Boston MA,Philadelphia PA,12,15,169,1,0
+43221,Boston MA,Philadelphia PA,2,4,-90,0,0
+43222,Boston MA,Philadelphia PA,11,7,192,0,91
+43223,Boston MA,Philadelphia PA,8,21,-115,1,0
+43224,Boston MA,Philadelphia PA,12,22,548,1,128
+43225,Boston MA,Philadelphia PA,7,23,-14,9,30
+43226,Boston MA,Philadelphia PA,11,9,-27,0,0
+43227,Boston MA,Philadelphia PA,5,8,-27,1,0
+43228,Boston MA,Philadelphia PA,4,6,165,1,14
+43229,Boston MA,Philadelphia PA,8,12,178,0,111
+43230,Boston MA,Philadelphia PA,10,25,-31,1,0
+43231,Boston MA,Philadelphia PA,3,1,28,0,0
+43232,Boston MA,Philadelphia PA,1,20,-36,0,0
+43233,Boston MA,Philadelphia PA,6,19,52,0,0
+43234,Boston MA,Philadelphia PA,10,31,-115,1,0
+43235,Boston MA,Philadelphia PA,1,5,-14,0,0
+43236,Boston MA,Philadelphia PA,12,17,419,6,70
+43237,Boston MA,Philadelphia PA,7,4,-100,0,0
+43238,Boston MA,Philadelphia PA,3,15,161,0,90
+43239,Boston MA,Philadelphia PA,5,29,-96,1,0
+43240,Boston MA,Philadelphia PA,5,18,242,0,0
+43241,Boston MA,Philadelphia PA,8,5,-1,0,0
+43242,Boston MA,Philadelphia PA,8,1,75,3,0
+43243,Boston MA,Philadelphia PA,8,28,125,0,0
+43244,Boston MA,Philadelphia PA,12,31,177,2,42
+43245,Boston MA,Philadelphia PA,8,18,-47,0,0
+43246,Boston MA,Philadelphia PA,11,15,100,0,35
+43247,Boston MA,Philadelphia PA,11,30,835,0,0
+43248,Boston MA,Philadelphia PA,7,3,51,0,0
+43249,Boston MA,Philadelphia PA,9,2,-65,1,0
+43250,Boston MA,Philadelphia PA,2,23,30,1,41
+43251,Boston MA,Philadelphia PA,6,10,59,2,104
+43252,Boston MA,Philadelphia PA,2,17,76,0,0
+43253,Boston MA,Philadelphia PA,8,19,-116,0,0
+43254,Boston MA,Philadelphia PA,12,26,-53,1,0
+43255,Boston MA,Philadelphia PA,3,20,270,0,207
+43256,Boston MA,Philadelphia PA,1,1,177,1,0
+43257,Boston MA,Philadelphia PA,7,10,55,1,0
+43258,Boston MA,Philadelphia PA,4,27,39,0,0
+43259,Boston MA,Philadelphia PA,5,22,32,0,0
+43260,Boston MA,Philadelphia PA,7,1,114,0,0
+43261,Boston MA,Philadelphia PA,8,3,149,0,10
+43262,Boston MA,Philadelphia PA,2,27,-8,0,10
+43263,Boston MA,Philadelphia PA,3,26,236,1,0
+43264,Boston MA,Philadelphia PA,1,27,62,0,0
+43265,Boston MA,Philadelphia PA,10,6,-105,0,0
+43266,Boston MA,Philadelphia PA,6,24,334,3,123
+43267,Boston MA,Philadelphia PA,3,22,-1,0,0
+43268,Boston MA,Philadelphia PA,12,23,217,1,0
+43269,Boston MA,Philadelphia PA,3,10,190,2,0
+43270,Boston MA,Philadelphia PA,11,25,494,4,71
+43271,Boston MA,Philadelphia PA,10,1,-72,4,0
+43272,Boston MA,Philadelphia PA,12,3,-120,1,0
+43273,Boston MA,Philadelphia PA,6,16,531,3,54
+43274,Boston MA,Philadelphia PA,4,25,-83,0,0
+43275,Boston MA,Philadelphia PA,8,7,397,2,0
+43276,Boston MA,Philadelphia PA,8,16,144,0,60
+43277,Boston MA,Philadelphia PA,2,26,228,0,0
+43278,Boston MA,Philadelphia PA,7,24,954,4,288
+43279,Boston MA,Philadelphia PA,5,25,-49,0,0
+43280,Boston MA,Philadelphia PA,8,14,262,1,0
+43281,Boston MA,Philadelphia PA,7,17,37,0,0
+43282,Boston MA,Philadelphia PA,12,20,668,4,400
+43283,Boston MA,Philadelphia PA,9,13,42,0,0
+43284,Boston MA,Philadelphia PA,4,18,24,0,0
+43285,Boston MA,Philadelphia PA,11,13,641,2,0
+43286,Boston MA,Philadelphia PA,10,29,-121,0,0
+43287,Boston MA,Philadelphia PA,12,27,281,2,0
+43288,Boston MA,Philadelphia PA,5,21,11,0,0
+43289,Boston MA,Philadelphia PA,8,25,-64,0,0
+43290,Boston MA,Philadelphia PA,3,8,272,1,0
+43291,Boston MA,Philadelphia PA,11,26,-84,0,0
+43292,Boston MA,Philadelphia PA,11,14,960,2,315
+43293,Boston MA,Philadelphia PA,5,28,-71,1,0
+43294,Boston MA,Philadelphia PA,7,8,174,0,0
+43295,Boston MA,Philadelphia PA,1,4,-49,0,0
+43296,Boston MA,Philadelphia PA,5,2,287,0,131
+43297,Boston MA,Philadelphia PA,4,13,80,0,10
+43298,Boston MA,Philadelphia PA,12,28,97,0,0
+43299,Boston MA,Philadelphia PA,1,31,-60,4,0
+43300,Boston MA,Philadelphia PA,7,31,-61,0,0
+43301,Boston MA,Philadelphia PA,5,10,-24,0,0
+43302,Boston MA,Philadelphia PA,3,2,25,0,0
+43303,Boston MA,Philadelphia PA,1,2,187,0,0
+43304,Boston MA,Philadelphia PA,9,8,-18,0,0
+43305,Boston MA,Philadelphia PA,6,20,-65,0,5
+43306,Boston MA,Philadelphia PA,9,12,764,2,0
+43307,Boston MA,Philadelphia PA,6,8,74,1,30
+43308,Boston MA,Philadelphia PA,3,24,-82,1,0
+43309,Boston MA,Philadelphia PA,6,1,188,1,0
+43310,Boston MA,Philadelphia PA,9,6,60,0,28
+43311,Boston MA,Philadelphia PA,5,30,-54,0,0
+43312,Boston MA,Philadelphia PA,4,24,-107,0,30
+43313,Boston MA,Philadelphia PA,1,11,466,0,177
+43314,Boston MA,Philadelphia PA,5,1,103,0,0
+43315,Boston MA,Philadelphia PA,11,10,-88,1,0
+>>>>>>> origin/master
