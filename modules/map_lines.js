@@ -15,11 +15,13 @@ function MapLines(){
 			.enter()
 			.append("path")
 			.attr("d", function(d){
+				var midLat = (d.long_lat_origin[1]+d.long_lat_dest[1])/2;
+				var midLong = (d.long_lat_origin[0]+d.long_lat_dest[0])/2 - 0.7;
 				var lineData = {
 					type:"Feature",
 			        geometry:{
 			            type:'LineString',
-			            coordinates:[d.long_lat_origin,d.long_lat_dest]
+			            coordinates:[d.long_lat_origin,d.long_lat_dest], //[midLong, midLat]
 			        },
 			        properties:{}
 				};
@@ -27,7 +29,7 @@ function MapLines(){
 			})
 			.style('fill','none')
 		    .style('stroke','blue')
-		    .style('stroke-width','2px');
+		    .style('stroke-width','1px');
 
 	};
 

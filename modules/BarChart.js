@@ -5,12 +5,13 @@ function BarChart() {
 	h = d3.select('.plot').node().clientHeight - m.t - m.b;
 
 	var exports = function(selection){
+		console.log(selection.datum());
 		var delay = selection.datum()?selection.datum():[];
 		var x = d3.scaleBand().rangeRound([0, w]).padding(0.1),
    			y = d3.scaleLinear().rangeRound([h, 0]);
 
 		var g = d3.select('#plot3').append("g")
-			.classed("test", true)
+			.classed("bar", true)
 		    .attr("transform", "translate(" + m.l + "," + m.t + ")");
 
 		x.domain(delay.map(function(d) { return d.date; }));
@@ -30,17 +31,15 @@ function BarChart() {
 	   //    	.attr("dy", "0.71em")
 	   //    	.attr("text-anchor", "end");
 	   //    	.text("Frequency");
-
 		g.selectAll(".bar")
 		    .data(delay)
-		    .enter().append("rect")
+		    .enter()
+		    .append("rect")
 		    .attr("class", "bar")
 		    .attr("x", function(d) { return x(d.date); })
 		    .attr("y", function(d) { return y(d.weatherDelay); })
 		    .attr("width", x.bandwidth())
 		    .attr("height", function(d) {return h - y(d.weatherDelay); });
-
-		//var delay = selection.datum()?selection.datum():[];
 
 
 	};
