@@ -1,11 +1,10 @@
 function BarChart() {
-	
+
 	var m = {t:20,r:20,b:20,l:20},
 	w = d3.select('.plot').node().clientWidth - m.l - m.r,
 	h = d3.select('.plot').node().clientHeight - m.t - m.b;
 
 	var exports = function(selection){
-		console.log(selection.datum());
 		var delay = selection.datum()?selection.datum():[];
 		var x = d3.scaleBand().rangeRound([0, w]).padding(0.1),
    			y = d3.scaleLinear().rangeRound([h, 0]);

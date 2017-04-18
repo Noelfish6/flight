@@ -92,3 +92,11 @@ pre{
 	position: relative;
 	left:40px;
 }
+
+path.departure {
+    fill: rgba(0, 0, 255, 0.1);
+}
+
+path.arrival {
+    fill: rgba(255, 0, 0, 0.1);
+}
