@@ -5,32 +5,19 @@ function MapLines(){
 
 
 	var exports = function(selection){
-
-		var data = selection.datum() || [];
-		var pathGenerator = d3.geoPath().projection(projection); 
-	
-		selection.selectAll("path").remove();
-		selection.selectAll("path")
-			.data(data)
-			.enter()
-			.append("path")
+        selection
 			.attr("d", function(d){
-				var midLat = (d.long_lat_origin[1]+d.long_lat_dest[1])/2;
-				var midLong = (d.long_lat_origin[0]+d.long_lat_dest[0])/2 - 0.7;
-				var lineData = {
-					type:"Feature",
-			        geometry:{
-			            type:'LineString',
-			            coordinates:[d.long_lat_origin,d.long_lat_dest], //[midLong, midLat]
-			        },
-			        properties:{}
-				};
-				return pathGenerator(lineData);
+                var source = projection(d.long_lat_origin),
+                    target = projection(d.long_lat_dest);
+                var dx = source[0] - target[0],
+                    dy = source[1] - target[1],
+                    dr = Math.sqrt(dx * dx + dy * dy);
+                // Create an arc from source to target with a particular curve
+                return "M" + source[0] + "," + source[1] + "A" + dr + "," + dr + " 0 0,1 " + target[0] + "," + target[1];
 			})
 			.style('fill','none')
 		    .style('stroke','blue')
 		    .style('stroke-width','1px');
-
 	};
 
 	exports.width = function(_){
