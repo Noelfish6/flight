@@ -20,11 +20,11 @@ var citiesMap = d3.map();
 var cf, originDimension, destinationDimension, totalDimension, stationMap = d3.map();
 var cfDelay, originDelayDimension;
 
-var selectedCity = "Chicago IL";
+var selectedCity = "Boston MA";
 var projection = d3.geoMercator()
         .center([-95.5795,36.8282])
         .translate([w/2, h/2])
-        .scale(1000);
+        .scale(800);
 
 // dropdown list
 var body = d3.select(".intorduction");

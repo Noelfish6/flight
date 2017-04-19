@@ -1,14 +1,9 @@
-html,body,h1,h2,h3,h4,h4,p,div,a,p{
-	margin:10;
-	padding:50;
+body{
+	background-color:#130c30;
 }
 
-body{
-	background:rgb(252,252,252);
-}
-
-body{
-	background:rgb(252,252,252);
+h1, h2, p{
+	color:rgba(240,255,240,1);
 }
 
 .control{
@@ -16,7 +11,7 @@ body{
 	position:relative;
 	padding:20px 100px 0;
 }
-	.control .navbar{background:grey;}
+	.control .navbar{background:grey;opacity: .8}
 
 .plot{
 	min-height:300px;
@@ -35,7 +30,7 @@ body{
 /*pie-charts*/
 .pie-chart .slice line{
 	fill:none;
-	stroke:rgb(80,80,80);
+	stroke:rgb(80,80,80,.4);
 	stroke-width:1px;
 }
 .pie-chart .slice .text{
@@ -60,28 +55,27 @@ body{
 }
 
 .radial-delay path {
-	fill: rgba(200, 0, 0, 0.4);
+	fill: #e91e56;
+	opacity:.4;
 }
 .radial-arrival path {
-	fill: rgba(0, 0, 250, 0.4);
+	fill: #51A8DD;
+	opacity:.4;
 }
 
 g .flightLines {
 	z-index: 1;
 }
-/*
-.city {
-	z-index: -1;
-}*/
+
 
 pre{
   display:none;
   position: fixed;
   left: 30px;
-  top:30px;
+  top: 30px;
   }
 
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:rgba(240,255,240);opacity: .9;}
 .tg td{font-family:Arial, sans-serif;font-size:10px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:10px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
@@ -91,6 +85,14 @@ pre{
 .tg {
 	position: relative;
 	left:40px;
+}
+
+
+
+.container1 p{
+    clear: left;
+    min-width: 768px;
+    background-color: black;
 }
 
 path.departure {
