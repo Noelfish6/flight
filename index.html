@@ -10,21 +10,26 @@
 
 	</style>
 	<body>
-		<div class='container'>
-			<h1>Fly on an airplane</h1>
+		<div class='container1'>
+			<h1>Intercity Relations in USA: Airplane Networks and its delay situation</h1>
+			<p>Cities' relations are built by people who live there. There are many ways to describe the intercity relations, and transportation is an important one to describe the relations. This project is based on the open resources data from National Plan of Integrated Airport Systems (NPIAS). The data set's entries are consisted by many single flights, and the fields of the data set are the time of the floght, the original airport, the destination airport, the delay time, etc. This project is trying to find the highly related cities and the data patterns of delay time of those cities.</p>
+		</div>
 
-			<table class="tg" style="undefined;table-layout: fixed; width: 1224px">
+		<div class='container2'>
+			<h2>Rank list of connection</h2>
+
+			<table class="tg" style="undefined;table-layout: fixed; width: 900px">
 			<colgroup>
-			<col style="width: 39px">
-			<col style="width: 81px">
-			<col style="width: 81px">
-			<col style="width: 103px">
-			<col style="width: 131px">
-			<col style="width: 137px">
-			<col style="width: 104px">
-			<col style="width: 220px">
-			<col style="width: 223px">
-			<col style="width: 105px">
+			<col style="width: 35px">
+			<col style="width: 70px">
+			<col style="width: 70px">
+			<col style="width: 70px">
+			<col style="width: 100px">
+			<col style="width: 100px">
+			<col style="width: 70px">
+			<col style="width: 110px">
+			<col style="width: 110px">
+			<col style="width: 60px">
 			</colgroup>
 			  <tr>
 			    <th class="tg-yzt1"></th>
@@ -46,14 +51,14 @@
 			  </tr>
 			  <tr>
 			    <td class="tg-yw4l">1</td>
-			    <td class="tg-yw4l">California</td>
-			    <td class="tg-yw4l">California</td>
+			    <td class="tg-yw4l"><b>California</b></td>
+			    <td class="tg-yw4l"><b>California</b></td>
 			    <td class="tg-yw4l">330149</td>
-			    <td class="tg-yw4l">Boston, MA</td>
-			    <td class="tg-yw4l">New York, NY</td>
+			    <td class="tg-yw4l"><b>Boston, MA</b></td>
+			    <td class="tg-yw4l"><b>New York, NY</b></td>
 			    <td class="tg-yw4l">19548</td>
-			    <td class="tg-yw4l">Los Angeles International, CA</td>
-			    <td class="tg-yw4l">San Francisco International, CA</td>
+			    <td class="tg-yw4l"><b>Los Angeles International, CA</b></td>
+			    <td class="tg-yw4l"><b>San Francisco International, CA</b></td>
 			    <td class="tg-yw4l">13788</td>
 			  </tr>
 			  <tr>
@@ -61,11 +66,11 @@
 			    <td class="tg-b7b8">Texas</td>
 			    <td class="tg-b7b8">Texas</td>
 			    <td class="tg-b7b8">234902</td>
-			    <td class="tg-b7b8">New York, NY</td>
-			    <td class="tg-b7b8">Boston, MA</td>
+			    <td class="tg-b7b8"><b>New York, NY</b></td>
+			    <td class="tg-b7b8"><b>Boston, MA</b></td>
 			    <td class="tg-b7b8">19401</td>
-			    <td class="tg-b7b8">San Francisco International, CA</td>
-			    <td class="tg-b7b8">Los Angeles International, CA</td>
+			    <td class="tg-b7b8"><b>San Francisco International, CA</b></td>
+			    <td class="tg-b7b8"><b>Los Angeles International, CA</b></td>
 			    <td class="tg-b7b8">13390</td>
 			  </tr>
 			  <tr>
@@ -165,27 +170,34 @@
 			    <td class="tg-b7b8">11224</td>
 			  </tr>
 			</table>
-			<p class="intorduction"></p>
-			<div class="container">
-			<pre id="csv">subCategory,TPC
-			Boston MA,Boston MA
-			New York NY,New York NY
-			Chicago IL, Chicago, IL
-			Arlington VA, Arlington VA
-			Los Angeles CA, Los Angeles CA
-			Houston TX, Houston TX
-			Dallas TX, Dallas TX
-			San Francisco CA, San Francisco CA</pre>
+
+			<p>As described above, the data set is consisted by each single flight from an original airport to a destination airport. Hence, we can sum up the data in three different dimensions: airport, city, and state. We sum up the data by different dimensions, the results are consequestly different. First, if we sum up the data by airports, we can see that Los Angeles International and San Francisco International have the strongest relation than other airports. Second, if we sum up the data by cities, we can see that Boston and New York have the strongest relation than other cities. Third, if we sum up the data by states, we can see that California's connection to itself is the strongest than other states. The first and third result could support each other. It shows that people living in California are higher relying on flight than other people living in other states. The second result, which is the main point in this project, shows people living in Boston and New York rely on each other due to some possible reasons, such as business, tourism, etc.</p>
+		</div>
+
+		<div class="container3">
 				<h2>The flight connection among US cities</h2>
+				<p>This part shows more information of the intercity relations. By clicking one dot on the map, it will shows five lines connecting to five cities which have higher relations with the city you click. The default setting is Boston. Boston have five connecting cities which are Philadelphia, New York, Chicago, Atlanta, and Arlington. Most of the cities have five connecting cities on the map, but few cities only have one or tow connecting cities.</p>
+				
+				<pre id="csv">
+				subCategory,TPC
+				Boston MA,Boston MA
+				New York NY,New York NY
+				</pre>
+
 				<div class='plot' id='plot1'></div>
+		</div>
+
+		<div class="container4">
 				<h2>Delay or ahead?</h2>
+				<p>This part continues analyzing the city you click. The visualization shows the five connecting cities' overlapping of delay and ahead time. The peak of the circle is the start point and it is January 1. The circle end at the last day of 2008. The red parts represent the ahead time which means the total flight on that day, the time of departure is ahead of schedule time. The blue parts represent the delay time which means the total flight on that day, the time of departure is behind of schedule time. The height of this chart is normalizes which means the delay and ahead time are divided by the number of flight on a day.</p>
 				<div class='plot' id='plot2'></div>
-				<h2>Delay caused by weather</h2>
-				<div class='plot' id='plot3'></div>				
-			</div>
+		</div>
+<!-- 				<h2>Delay caused by weather</h2>
+				<div class='plot' id='plot3'></div>	 -->			
+
 			
 
-		</div>
+
 		<script src="lib/crossfilter.min.js"></script>
 		<script src="lib/jquery/jquery-1.12.4.min.js"></script>		
 		<script src="modules/Map.js"></script>

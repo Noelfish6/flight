@@ -19,15 +19,15 @@ function Map(){
 				return 'translate('+xy[0]+','+xy[1]+')';
 			})
             .append("circle");
-        circles.style('fill','rgba(255, 255, 255, 0.6)')
-            .style('stroke','grey')
-            .style('stroke-width', 1)
+        circles.style('fill','rgba(240,255,240,.7)')
+            // .style('stroke','grey')
+            // .style('stroke-width', 1)
             .attr("r", 0)
             .on('click',function(d){
 				_dis.call('circle:clicked', null, d);
 			})
             .transition()
-            .attr("r", 4);
+            .attr("r", 7);
 
 	};
 
