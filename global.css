@@ -88,12 +88,10 @@ pre{
 }
 
 
-
-.container1 p{
-    clear: left;
-    min-width: 768px;
-    background-color: black;
+.container1, .container2, .container3, .container4{
+ width: 60%;
 }
+
 
 path.departure {
     fill: rgba(0, 0, 255, 0.1);

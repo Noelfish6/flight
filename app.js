@@ -82,7 +82,7 @@ function dataLoaded(err,city,delay){
 
 function createVisualization() {
 	var map = Map()
-        .height(600)
+        .height(800)
         .projection(projection)
         .on("circle:clicked", function(city) {
             // city = {key: "Bemidji MN", value: [-94.93372333, 47.50942417]}
