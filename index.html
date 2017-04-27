@@ -11,187 +11,200 @@
 	</style>
 	<body>
 		<div class='container1'>
-			<h1>Intercity Relations in USA: Airplane Networks and its delay situation</h1>
+			<h1>Intercity Relations in the USA <span> ✈️ </span> <br>Airplane Networks and Delay Situation</h1>
 			<p>Cities' relations are built by people who live there. There are many ways to describe the intercity relations, and transportation is an important one to describe the relations. This project is based on the open resources data from National Plan of Integrated Airport Systems (NPIAS). The data set's entries are consisted by many single flights, and the fields of the data set are the time of the floght, the original airport, the destination airport, the delay time, etc. This project is trying to find the highly related cities and the data patterns of delay time of those cities.</p>
 		</div>
 
-		<div class='container2'>
-			<h2>Rank list of connection</h2>
+		<div class="border-top">
+			<h2 class="border-top__text">Rank list of connection</h2>
+		</div>
 
-			<table class="tg" style="undefined;table-layout: fixed; width: 900px">
-			<colgroup>
-			<col style="width: 35px">
-			<col style="width: 70px">
-			<col style="width: 70px">
-			<col style="width: 70px">
-			<col style="width: 100px">
-			<col style="width: 100px">
-			<col style="width: 70px">
-			<col style="width: 110px">
-			<col style="width: 110px">
-			<col style="width: 60px">
-			</colgroup>
-			  <tr>
-			    <th class="tg-yzt1"></th>
-			    <th class="tg-7t59" colspan="3">State</th>
-			    <th class="tg-7t59" colspan="3">City</th>
-			    <th class="tg-7t59" colspan="3">Airport</th>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">rank</td>
-			    <td class="tg-b7b8">from</td>
-			    <td class="tg-b7b8">to</td>
-			    <td class="tg-b7b8">connection index</td>
-			    <td class="tg-b7b8">from</td>
-			    <td class="tg-b7b8">to</td>
-			    <td class="tg-b7b8">connection index</td>
-			    <td class="tg-b7b8">from</td>
-			    <td class="tg-b7b8">to</td>
-			    <td class="tg-b7b8">connection index</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-yw4l">1</td>
-			    <td class="tg-yw4l"><b>California</b></td>
-			    <td class="tg-yw4l"><b>California</b></td>
-			    <td class="tg-yw4l">330149</td>
-			    <td class="tg-yw4l"><b>Boston, MA</b></td>
-			    <td class="tg-yw4l"><b>New York, NY</b></td>
-			    <td class="tg-yw4l">19548</td>
-			    <td class="tg-yw4l"><b>Los Angeles International, CA</b></td>
-			    <td class="tg-yw4l"><b>San Francisco International, CA</b></td>
-			    <td class="tg-yw4l">13788</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">2</td>
-			    <td class="tg-b7b8">Texas</td>
-			    <td class="tg-b7b8">Texas</td>
-			    <td class="tg-b7b8">234902</td>
-			    <td class="tg-b7b8"><b>New York, NY</b></td>
-			    <td class="tg-b7b8"><b>Boston, MA</b></td>
-			    <td class="tg-b7b8">19401</td>
-			    <td class="tg-b7b8"><b>San Francisco International, CA</b></td>
-			    <td class="tg-b7b8"><b>Los Angeles International, CA</b></td>
-			    <td class="tg-b7b8">13390</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-yw4l">3</td>
-			    <td class="tg-yw4l">Hawaii</td>
-			    <td class="tg-yw4l">Hawaii</td>
-			    <td class="tg-yw4l">82225</td>
-			    <td class="tg-yw4l">Chicago, IL</td>
-			    <td class="tg-yw4l">New York, NY</td>
-			    <td class="tg-yw4l">14534</td>
-			    <td class="tg-yw4l">Honolulu International, HI</td>
-			    <td class="tg-yw4l">Kahului, HI</td>
-			    <td class="tg-yw4l">12383</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">4</td>
-			    <td class="tg-b7b8">Arizona</td>
-			    <td class="tg-b7b8">California</td>
-			    <td class="tg-b7b8">68990</td>
-			    <td class="tg-b7b8">New York, NY</td>
-			    <td class="tg-b7b8">Chicago, IL</td>
-			    <td class="tg-b7b8">14454</td>
-			    <td class="tg-b7b8">Gen Edw L Logan Intl, MA</td>
-			    <td class="tg-b7b8">LaGuardia, NY</td>
-			    <td class="tg-b7b8">12035</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-yw4l">5</td>
-			    <td class="tg-yw4l">California</td>
-			    <td class="tg-yw4l">Arizona</td>
-			    <td class="tg-yw4l">68811</td>
-			    <td class="tg-yw4l">New York, NY</td>
-			    <td class="tg-yw4l">Arlington, VA</td>
-			    <td class="tg-yw4l">14119</td>
-			    <td class="tg-yw4l">LaGuardia, NY</td>
-			    <td class="tg-yw4l">Gen Edw L Logan Intl, MA</td>
-			    <td class="tg-yw4l">12029</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">6</td>
-			    <td class="tg-b7b8">Georgia</td>
-			    <td class="tg-b7b8">Florida</td>
-			    <td class="tg-b7b8">68616</td>
-			    <td class="tg-b7b8">Arlington, VA</td>
-			    <td class="tg-b7b8">New York, NY</td>
-			    <td class="tg-b7b8">14004</td>
-			    <td class="tg-b7b8">Kahului, HI</td>
-			    <td class="tg-b7b8">Honolulu International, HI</td>
-			    <td class="tg-b7b8">12014</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-yw4l">7</td>
-			    <td class="tg-yw4l">Florida</td>
-			    <td class="tg-yw4l">Georgia</td>
-			    <td class="tg-yw4l">68611</td>
-			    <td class="tg-yw4l">Los Angeles, CA</td>
-			    <td class="tg-yw4l">San Francisco, CA</td>
-			    <td class="tg-yw4l">13788</td>
-			    <td class="tg-yw4l">McCarran International, NV</td>
-			    <td class="tg-yw4l">Los Angeles International, CA</td>
-			    <td class="tg-yw4l">11773</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">8</td>
-			    <td class="tg-b7b8">California</td>
-			    <td class="tg-b7b8">Nevada</td>
-			    <td class="tg-b7b8">63133</td>
-			    <td class="tg-b7b8">Houston, TX</td>
-			    <td class="tg-b7b8">Dallas, TX</td>
-			    <td class="tg-b7b8">13520</td>
-			    <td class="tg-b7b8">Los Angeles International, CA</td>
-			    <td class="tg-b7b8">McCarran International, NV</td>
-			    <td class="tg-b7b8">11729</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-yw4l">9</td>
-			    <td class="tg-yw4l">Nevada</td>
-			    <td class="tg-yw4l">California</td>
-			    <td class="tg-yw4l">63072</td>
-			    <td class="tg-yw4l">Dallas, TX</td>
-			    <td class="tg-yw4l">Houston, TX</td>
-			    <td class="tg-yw4l">13496</td>
-			    <td class="tg-yw4l">San Diego International-Lindbergh, CA</td>
-			    <td class="tg-yw4l">Los Angeles International, CA</td>
-			    <td class="tg-yw4l">11257</td>
-			  </tr>
-			  <tr>
-			    <td class="tg-b7b8">10</td>
-			    <td class="tg-b7b8">Florida</td>
-			    <td class="tg-b7b8">New York</td>
-			    <td class="tg-b7b8">56120</td>
-			    <td class="tg-b7b8">San Francisco, CA</td>
-			    <td class="tg-b7b8">Los Angeles, CA</td>
-			    <td class="tg-b7b8">13390</td>
-			    <td class="tg-b7b8">Los Angeles International, CA</td>
-			    <td class="tg-b7b8">San Diego International-Lindbergh, CA</td>
-			    <td class="tg-b7b8">11224</td>
-			  </tr>
+		<section class='container2' style="width: 100%; overflow: hidden;">
+			<div id="paragraph">
+				<p>As described above, the data set is consisted by each single flight from an original airport to a destination airport. Hence, we can sum up the data in three different dimensions: airport, city, and state. 
+					<br> <br>We sum up the data by different dimensions, the results are consequestly different. 
+					<br> <br>✈️ First, if we sum up the data by airports, we can see that Los Angeles International and San Francisco International have the strongest relation than other airports. 
+					<br> <br>✈️ <b>Second, if we sum up the data by cities, we can see that Boston and New York have the strongest relation than other cities.</b>
+					<br> <br>✈️ Third, if we sum up the data by states, we can see that California's connection to itself is the strongest than other states. 
+					<br> <br>The first and third result could support each other. It shows that people living in California are higher relying on flight than other people living in other states. <b> <i> The second result, which is the main point in this project, shows people living in Boston and New York rely on each other due to some possible reasons, such as business, tourism, etc.</i> </b></p>
+			</div>
+
+			<table class="tg" style="undefined; width: 800px">
+				<colgroup>
+				<col style="width: 35px">
+				<col style="width: 70px">
+				<col style="width: 70px">
+				<col style="width: 70px">
+				<col style="width: 100px">
+				<col style="width: 100px">
+				<col style="width: 70px">
+				<col style="width: 110px">
+				<col style="width: 110px">
+				<col style="width: 60px">
+				</colgroup>
+				  <tr>
+				    <th class="tg-yzt1"></th>
+				    <th class="tg-7t59" colspan="3">State</th>
+				    <th class="tg-7t59" colspan="3">City</th>
+				    <th class="tg-7t59" colspan="3">Airport</th>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">rank</td>
+				    <td class="tg-b7b8">from</td>
+				    <td class="tg-b7b8">to</td>
+				    <td class="tg-b7b8">connection index</td>
+				    <td class="tg-b7b8">from</td>
+				    <td class="tg-b7b8">to</td>
+				    <td class="tg-b7b8">connection index</td>
+				    <td class="tg-b7b8">from</td>
+				    <td class="tg-b7b8">to</td>
+				    <td class="tg-b7b8">connection index</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-yw4l">1</td>
+				    <td class="tg-yw4l"><b>California</b></td>
+				    <td class="tg-yw4l"><b>California</b></td>
+				    <td class="tg-yw4l">330149</td>
+				    <td class="tg-yw4l"><b>Boston, MA</b></td>
+				    <td class="tg-yw4l"><b>New York, NY</b></td>
+				    <td class="tg-yw4l">19548</td>
+				    <td class="tg-yw4l"><b>Los Angeles International, CA</b></td>
+				    <td class="tg-yw4l"><b>San Francisco International, CA</b></td>
+				    <td class="tg-yw4l">13788</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">2</td>
+				    <td class="tg-b7b8">Texas</td>
+				    <td class="tg-b7b8">Texas</td>
+				    <td class="tg-b7b8">234902</td>
+				    <td class="tg-b7b8"><b>New York, NY</b></td>
+				    <td class="tg-b7b8"><b>Boston, MA</b></td>
+				    <td class="tg-b7b8">19401</td>
+				    <td class="tg-b7b8"><b>San Francisco International, CA</b></td>
+				    <td class="tg-b7b8"><b>Los Angeles International, CA</b></td>
+				    <td class="tg-b7b8">13390</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-yw4l">3</td>
+				    <td class="tg-yw4l">Hawaii</td>
+				    <td class="tg-yw4l">Hawaii</td>
+				    <td class="tg-yw4l">82225</td>
+				    <td class="tg-yw4l">Chicago, IL</td>
+				    <td class="tg-yw4l">New York, NY</td>
+				    <td class="tg-yw4l">14534</td>
+				    <td class="tg-yw4l">Honolulu International, HI</td>
+				    <td class="tg-yw4l">Kahului, HI</td>
+				    <td class="tg-yw4l">12383</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">4</td>
+				    <td class="tg-b7b8">Arizona</td>
+				    <td class="tg-b7b8">California</td>
+				    <td class="tg-b7b8">68990</td>
+				    <td class="tg-b7b8">New York, NY</td>
+				    <td class="tg-b7b8">Chicago, IL</td>
+				    <td class="tg-b7b8">14454</td>
+				    <td class="tg-b7b8">Gen Edw L Logan Intl, MA</td>
+				    <td class="tg-b7b8">LaGuardia, NY</td>
+				    <td class="tg-b7b8">12035</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-yw4l">5</td>
+				    <td class="tg-yw4l">California</td>
+				    <td class="tg-yw4l">Arizona</td>
+				    <td class="tg-yw4l">68811</td>
+				    <td class="tg-yw4l">New York, NY</td>
+				    <td class="tg-yw4l">Arlington, VA</td>
+				    <td class="tg-yw4l">14119</td>
+				    <td class="tg-yw4l">LaGuardia, NY</td>
+				    <td class="tg-yw4l">Gen Edw L Logan Intl, MA</td>
+				    <td class="tg-yw4l">12029</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">6</td>
+				    <td class="tg-b7b8">Georgia</td>
+				    <td class="tg-b7b8">Florida</td>
+				    <td class="tg-b7b8">68616</td>
+				    <td class="tg-b7b8">Arlington, VA</td>
+				    <td class="tg-b7b8">New York, NY</td>
+				    <td class="tg-b7b8">14004</td>
+				    <td class="tg-b7b8">Kahului, HI</td>
+				    <td class="tg-b7b8">Honolulu International, HI</td>
+				    <td class="tg-b7b8">12014</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-yw4l">7</td>
+				    <td class="tg-yw4l">Florida</td>
+				    <td class="tg-yw4l">Georgia</td>
+				    <td class="tg-yw4l">68611</td>
+				    <td class="tg-yw4l">Los Angeles, CA</td>
+				    <td class="tg-yw4l">San Francisco, CA</td>
+				    <td class="tg-yw4l">13788</td>
+				    <td class="tg-yw4l">McCarran International, NV</td>
+				    <td class="tg-yw4l">Los Angeles International, CA</td>
+				    <td class="tg-yw4l">11773</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">8</td>
+				    <td class="tg-b7b8">California</td>
+				    <td class="tg-b7b8">Nevada</td>
+				    <td class="tg-b7b8">63133</td>
+				    <td class="tg-b7b8">Houston, TX</td>
+				    <td class="tg-b7b8">Dallas, TX</td>
+				    <td class="tg-b7b8">13520</td>
+				    <td class="tg-b7b8">Los Angeles International, CA</td>
+				    <td class="tg-b7b8">McCarran International, NV</td>
+				    <td class="tg-b7b8">11729</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-yw4l">9</td>
+				    <td class="tg-yw4l">Nevada</td>
+				    <td class="tg-yw4l">California</td>
+				    <td class="tg-yw4l">63072</td>
+				    <td class="tg-yw4l">Dallas, TX</td>
+				    <td class="tg-yw4l">Houston, TX</td>
+				    <td class="tg-yw4l">13496</td>
+				    <td class="tg-yw4l">San Diego International-Lindbergh, CA</td>
+				    <td class="tg-yw4l">Los Angeles International, CA</td>
+				    <td class="tg-yw4l">11257</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-b7b8">10</td>
+				    <td class="tg-b7b8">Florida</td>
+				    <td class="tg-b7b8">New York</td>
+				    <td class="tg-b7b8">56120</td>
+				    <td class="tg-b7b8">San Francisco, CA</td>
+				    <td class="tg-b7b8">Los Angeles, CA</td>
+				    <td class="tg-b7b8">13390</td>
+				    <td class="tg-b7b8">Los Angeles International, CA</td>
+				    <td class="tg-b7b8">San Diego International-Lindbergh, CA</td>
+				    <td class="tg-b7b8">11224</td>
+				  </tr>
 			</table>
-
-			<p>As described above, the data set is consisted by each single flight from an original airport to a destination airport. Hence, we can sum up the data in three different dimensions: airport, city, and state. We sum up the data by different dimensions, the results are consequestly different. First, if we sum up the data by airports, we can see that Los Angeles International and San Francisco International have the strongest relation than other airports. Second, if we sum up the data by cities, we can see that Boston and New York have the strongest relation than other cities. Third, if we sum up the data by states, we can see that California's connection to itself is the strongest than other states. The first and third result could support each other. It shows that people living in California are higher relying on flight than other people living in other states. The second result, which is the main point in this project, shows people living in Boston and New York rely on each other due to some possible reasons, such as business, tourism, etc.</p>
+		</section>
+		
+		<div class="border-top">
+			<h2 class="border-top__text">The flight connection among US cities</h2>
 		</div>
 
-		<div class="container3">
-				<h2>The flight connection among US cities</h2>
-				<p>This part shows more information of the intercity relations. By clicking one dot on the map, it will shows five lines connecting to five cities which have higher relations with the city you click. The default setting is Boston. Boston have five connecting cities which are Philadelphia, New York, Chicago, Atlanta, and Arlington. Most of the cities have five connecting cities on the map, but few cities only have one or tow connecting cities.</p>
+		<section class="container3" style="width: 100%; display: table;">
+			
+			<p style="float: left;">This part shows more information of the intercity relations. 
+				<br><br>By clicking one dot on the map, it will shows five lines connecting to five cities which have higher relations with the city you click. The default setting is Boston. Boston have five connecting cities which are Philadelphia, New York, Chicago, Atlanta, and Arlington. Most of the cities have five connecting cities on the map, but few cities only have one or tow connecting cities.</p>
+			<div class='plot' id='plot1' style="undefined; width: 800px; height:500px"></div>
+		</section>
+
+
+
+		<div class="border-top">
+			<h2 class="border-top__text">Delay or ahead?</h2>
+		</div>
+		<section class="container4" style="width: 100%; display: table;">
 				
-				<pre id="csv">
-				subCategory,TPC
-				Boston MA,Boston MA
-				New York NY,New York NY
-				</pre>
-
-				<div class='plot' id='plot1'></div>
-		</div>
-
-		<div class="container4">
-				<h2>Delay or ahead?</h2>
-				<p>This part continues analyzing the city you click. The visualization shows the five connecting cities' overlapping of delay and ahead time. The peak of the circle is the start point and it is January 1. The circle end at the last day of 2008. The red parts represent the ahead time which means the total flight on that day, the time of departure is ahead of schedule time. The blue parts represent the delay time which means the total flight on that day, the time of departure is behind of schedule time. The height of this chart is normalizes which means the delay and ahead time are divided by the number of flight on a day.</p>
-				<div class='plot' id='plot2'></div>
-		</div>
+				<p style="float: left;">This part continues analyzing the city you click.
+					<br><br>The visualization shows the five connecting cities' overlapping of delay and ahead time. The peak of the circle is the start point and it is January 1. The circle end at the last day of 2008. The red parts represent the ahead time which means the total flight on that day, the time of departure is ahead of schedule time. The blue parts represent the delay time which means the total flight on that day, the time of departure is behind of schedule time. The height of this chart is normalizes which means the delay and ahead time are divided by the number of flight on a day.</p>
+				<div class='plot' id='plot2' style="undefined;"></div>
+		</section>
 <!-- 				<h2>Delay caused by weather</h2>
 				<div class='plot' id='plot3'></div>	 -->			
 

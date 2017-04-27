@@ -2,30 +2,86 @@ body{
 	background-color:#130c30;
 }
 
+h1{
+	text-align: center;
+	margin-top: 10rem;
+	padding: 3rem;
+	font-family: "open sans";
+	font-size: 2rem;
+}
+
+.container1 p {
+	font-size: 1rem;
+	text-align: center;
+	max-width: 44rem;
+	margin: 2rem auto;
+	font-family: "Roboto";
+	margin-bottom: 10rem;
+}
+
+
 h1, h2, p{
 	color:rgba(240,255,240,1);
 }
 
-.control{
-	height:100px;
-	position:relative;
-	padding:20px 100px 0;
+section {
+    margin: auto;
+    padding: 20px;
+    height: 900px;
 }
-	.control .navbar{background:grey;opacity: .8}
-
-.plot{
-	min-height:300px;
+section p {
+    width: 30%;
+    float: left;
+    height: 800px;
+	font-size: 1rem;
+	font-family: "Roboto";
+	padding-left: 5rem;
 }
 
-.control {
-	height:100px;
-	position:relative;
-	padding:20px 100px 0;
+table {
+    margin-left: 35%;
+	height: 800px;
 }
-	.control .navbar{
-		background:white;
-	}
 
+.container3 {
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+}
+.container3 p {
+    width: 30%;
+    float: left;
+    height: 400px;
+	font-size: 1rem;
+	font-family: "Roboto";
+	padding-left: 5rem;
+}
+
+#plot1 {
+    margin-left: 40%;
+	height:300px;
+	width:800px;
+}
+
+.container4 {
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+}
+.container4 p {
+    width: 30%;
+    float: left;
+    height: 400px;
+	font-size: 1rem;
+	font-family: "Roboto";
+	padding-left: 5rem;
+}
+
+#plot2 {
+    margin-left: 40%;
+	height:400px;
+	width:800px;
+}
 
 /*pie-charts*/
 .pie-chart .slice line{
@@ -55,11 +111,11 @@ h1, h2, p{
 }
 
 .radial-delay path {
-	fill: #e91e56;
+	fill: #D8FF83;
 	opacity:.4;
 }
 .radial-arrival path {
-	fill: #51A8DD;
+	fill: #D8FF83;
 	opacity:.4;
 }
 
@@ -67,13 +123,6 @@ g .flightLines {
 	z-index: 1;
 }
 
-
-pre{
-  display:none;
-  position: fixed;
-  left: 30px;
-  top: 30px;
-  }
 
 .tg  {border-collapse:collapse;border-spacing:0;border-color:rgba(240,255,240);opacity: .9;}
 .tg td{font-family:Arial, sans-serif;font-size:10px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
@@ -88,10 +137,6 @@ pre{
 }
 
 
-.container1, .container2, .container3, .container4{
- width: 60%;
-}
-
 
 path.departure {
     fill: rgba(0, 0, 255, 0.1);
@@ -99,4 +144,35 @@ path.departure {
 
 path.arrival {
     fill: rgba(255, 0, 0, 0.1);
+}
+
+.border-top {
+    margin-bottom: 2.5rem;
+}
+
+.border-top {
+    border-top: 1px solid #ccc;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.border-top__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    background: #130c30;
+    width: 12rem;
+    letter-spacing: 0;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(240,255,240,1);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
