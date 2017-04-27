@@ -22,26 +22,12 @@ var cfDelay, originDelayDimension;
 
 var selectedCity = "Boston MA";
 var projection = d3.geoMercator()
-        .center([-95.5795,36.8282])
+        .center([-97.5795,36.8282])
         .translate([w/2, h/2])
-        .scale(800);
+        .scale(700);
 
 // dropdown list
 var body = d3.select(".intorduction");
-var list = d3.csvParse(d3.select("#csv").text());
-var menu = body.append("select");
-menu.selectAll("foo")
-    .data(list)
-    .enter()
-    .append("option")
-    .attr("value", d=>d.TPC)
-    .text(d=>d.subCategory);
-
-menu.on("change", function(){
-    selectedCity = this.value;
-    createVisualization();
-});
-
 
 d3.queue()
 	.defer(d3.csv,'data/all_city.csv',parseCity)

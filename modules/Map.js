@@ -1,7 +1,7 @@
 function Map(){
 	var projection;
 	var m = {t:20,r:20,b:20,l:20},
-		w, h, W=800, H=600;
+		w, h, W=700, H=600;
 
     var _dis = d3.dispatch("circle:clicked");
 
@@ -20,9 +20,9 @@ function Map(){
 			})
             .append("circle");
         circles.style('fill','rgba(240,255,240,.7)')
-            // .style('stroke','grey')
-            // .style('stroke-width', 1)
-            .attr("r", 0)
+            .style('stroke',"#DFC3FF")
+            .style('stroke-width', 2)
+            .attr("r", 1)
             .on('click',function(d){
 				_dis.call('circle:clicked', null, d);
 			})
